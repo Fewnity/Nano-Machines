@@ -1,0 +1,5185 @@
+{
+  "Version": 1,
+  "GameObjects": {
+    "1": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.658148686890854e-08,
+              "y": 3.462207794189453,
+              "z": -24.968486785888672
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -7.59040386100196e-09,
+              "y": 0.9848077297210693,
+              "z": -0.1736481934785843,
+              "w": -4.304731149318286e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Camera",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "2": {
+          "Type": "Camera",
+          "Values": {
+            "projectionType": 0,
+            "fov": 60.0,
+            "projectionSize": 5.0,
+            "nearClippingPlane": 0.30000001192092896,
+            "farClippingPlane": 1000.0,
+            "useMultisampling": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "3": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Sun",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "4": {
+          "Type": "Light",
+          "Values": {
+            "type": 0,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "intensity": 0.5,
+            "range": 10.0,
+            "spotAngle": 30.0,
+            "spotSmoothness": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "5": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Ambient Light",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "6": {
+          "Type": "Light",
+          "Values": {
+            "type": 3,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "intensity": 0.5,
+            "range": 10.0,
+            "spotAngle": 30.0,
+            "spotSmoothness": 0.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "7": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -2.426168918609619,
+              "y": 0.320493221282959,
+              "z": -0.9618387222290039
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "gate-finish",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "8": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100100,
+            "materials": [
+              100207,
+              0
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "9": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.5948025584220886,
+              "y": -0.051534414291381836,
+              "z": -0.23937177658081055
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "gate",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "10": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100101,
+            "materials": [
+              100207,
+              0
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "11": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.3021173477172852,
+              "y": 0.01235342025756836,
+              "z": -0.015632152557373047
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-banana",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "12": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100102,
+            "materials": [
+              100207,
+              0
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "13": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 2.794398784637451,
+              "y": -0.2753434181213379,
+              "z": 0.3300628662109375
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-box",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "14": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100103,
+            "materials": [
+              100207,
+              0
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "15": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.234073162078857,
+              "y": -0.12893056869506836,
+              "z": 0.21707391738891602
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "16": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100104,
+            "materials": [
+              100207,
+              0
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "17": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.267661094665527,
+              "y": -0.5219821929931641,
+              "z": 0.6729674339294434
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-gold",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "18": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100105,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "19": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.1999382972717285,
+              "y": -0.31711387634277344,
+              "z": 0.37987518310546875
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-silver",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "20": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "21": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.582217216491699,
+              "y": -0.07561540603637695,
+              "z": 0.3967418670654297
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "smoke",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "22": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100107,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "23": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.961141586303711,
+              "y": -0.4357950687408447,
+              "z": 0.7271595001220703
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "supports-clamp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "24": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100108,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "25": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.682058334350586,
+              "y": -0.604248046875,
+              "z": 0.6510429382324219
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "supports-diagonal",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "26": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100109,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "27": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 12.76807975769043,
+              "y": -0.5268316268920898,
+              "z": 0.8501172065734863
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "supports-wide-clamp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "28": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100110,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "29": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 15.587867736816406,
+              "y": -0.8493647575378418,
+              "z": 0.8134613037109375
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "supports-wide-diagonal",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "30": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100111,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "33": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 17.99925422668457,
+              "y": -1.0006780624389648,
+              "z": 0.19532012939453125
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "supports-wide",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "34": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100112,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "35": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 18.5087947845459,
+              "y": -1.9656662940979004,
+              "z": -1.2812581062316895
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "supports",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "36": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100113,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "37": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 15.121583938598633,
+              "y": -2.595350742340088,
+              "z": -1.0256621837615967
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-cap-back",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "38": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100114,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "39": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 12.475337982177734,
+              "y": -2.59512996673584,
+              "z": -1.2944960594177246
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-cap-front",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "40": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100115,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "41": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.301980972290039,
+              "y": -2.735288619995117,
+              "z": -1.4098114967346191
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-corner-large-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "42": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100116,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "43": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.652827739715576,
+              "y": -2.0993828773498535,
+              "z": -1.5333638191223145
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-corner-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "44": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100117,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "45": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.8440473079681396,
+              "y": -1.7813916206359863,
+              "z": -1.810849905014038
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-corner-small-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "46": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100118,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "47": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.0598678588867188,
+              "y": -1.2376995086669922,
+              "z": -1.9618666172027588
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-corner-small",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "48": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100119,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "51": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -2.092831611633301,
+              "y": -1.8388359546661377,
+              "z": -2.11204195022583
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-curve",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "52": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100120,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "53": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -5.267386436462402,
+              "y": -0.2612299919128418,
+              "z": -3.678328275680542
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-straight-bend-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "54": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100121,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "55": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -7.65375280380249,
+              "y": -0.13570642471313477,
+              "z": -3.416090250015259
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow-straight",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "56": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100133,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "57": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -9.032672882080078,
+              "y": 0.6001524925231934,
+              "z": -3.431662082672119
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-narrow",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "58": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100134,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "59": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -10.663883209228516,
+              "y": 0.5462002754211426,
+              "z": -3.5984652042388916
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-cap-back",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "60": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100135,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "61": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -12.606202125549316,
+              "y": 0.47159719467163086,
+              "z": -3.790398120880127
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-cap-front",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "62": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100136,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "63": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -12.878959655761719,
+              "y": 0.39812135696411133,
+              "z": -4.458789825439453
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-corner-large-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "64": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100137,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "65": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -10.911407470703125,
+              "y": -0.37137651443481445,
+              "z": -3.6481146812438965
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-corner-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "66": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100138,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "67": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -7.460230827331543,
+              "y": -0.4128532409667969,
+              "z": -3.7298758029937744
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-corner-small-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "68": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100139,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "69": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -5.5569257736206055,
+              "y": 0.1701679229736328,
+              "z": -5.03153133392334
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-corner-small",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "70": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100140,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "71": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.452315807342529,
+              "y": 1.203679084777832,
+              "z": -5.408979415893555
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-curve",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "72": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100141,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "73": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -3.661837100982666,
+              "y": 2.4832687377929688,
+              "z": -6.0337748527526855
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-bend-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "74": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100142,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "75": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.7415142059326172,
+              "y": 2.6046290397644043,
+              "z": -9.52222728729248
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-bend",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "76": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100143,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "77": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.152313470840454,
+              "y": 2.045830726623535,
+              "z": -8.71494197845459
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-bump-down",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "78": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100144,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "79": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.686915874481201,
+              "y": 1.562025547027588,
+              "z": -8.710683822631836
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-bump-up",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "80": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100145,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "81": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.086188316345215,
+              "y": 1.6927733421325684,
+              "z": -8.776275634765625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-hill-beginning",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "82": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100146,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "83": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.961675643920898,
+              "y": 2.4921436309814453,
+              "z": -9.13057804107666
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-hill-complete-half",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "84": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100147,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "85": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.921104431152344,
+              "y": 3.276510238647461,
+              "z": -9.193565368652344
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-hill-complete",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "86": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100148,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "87": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 11.113641738891602,
+              "y": 3.0647177696228027,
+              "z": -9.982196807861328
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-hill-end",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "88": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100149,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "89": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.963327407836914,
+              "y": 1.403852939605713,
+              "z": -10.515715599060059
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-skew-left-side",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "90": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100150,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "91": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.302303314208984,
+              "y": 1.5717158317565918,
+              "z": -10.419673919677734
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-skew-left",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "92": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100151,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "93": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.478897094726563,
+              "y": 2.194981575012207,
+              "z": -11.013167381286621
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-skew-right-side",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "94": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100152,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "95": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.720831871032715,
+              "y": 2.5056748390197754,
+              "z": -10.461377143859863
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight-skew-right",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "96": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100153,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "97": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.8888461589813232,
+              "y": 1.8980913162231445,
+              "z": -9.964334487915039
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow-straight",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "98": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100154,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "99": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.33171272277832,
+              "y": 1.541712760925293,
+              "z": -9.309030532836914
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-narrow",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "100": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100155,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "101": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.931878089904785,
+              "y": 1.2867040634155273,
+              "z": -9.465044021606445
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-cap-back",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "102": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100156,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "103": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.55806303024292,
+              "y": 1.0353798866271973,
+              "z": -10.529733657836914
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-cap-front",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "104": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100157,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "105": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.828919410705566,
+              "y": 0.9325666427612305,
+              "z": -10.866133689880371
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-corner-large-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "106": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100158,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "107": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.760905742645264,
+              "y": 0.9862785339355469,
+              "z": -11.114363670349121
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-corner-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "108": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100159,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "109": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.96600341796875,
+              "y": 1.3287925720214844,
+              "z": -11.005355834960938
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-corner-small-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "110": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100160,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "111": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.5170316696167,
+              "y": 1.5494322776794434,
+              "z": -11.348180770874023
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-corner-small",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "112": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100161,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "113": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.086292266845703,
+              "y": 1.8742985725402832,
+              "z": -11.587660789489746
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-curve",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "114": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100162,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "115": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.104573249816895,
+              "y": 1.9602174758911133,
+              "z": -10.761937141418457
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-bend-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "116": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100163,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "117": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.147150039672852,
+              "y": 1.9172592163085938,
+              "z": -11.462738990783691
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-bend",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "118": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100164,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "119": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.3142008781433105,
+              "y": 2.2338690757751465,
+              "z": -10.097798347473145
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-bump-down",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "120": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100165,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "121": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.367431163787842,
+              "y": 1.5631656646728516,
+              "z": -10.266596794128418
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-bump-up",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "122": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100166,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "123": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.336468696594238,
+              "y": 1.1882743835449219,
+              "z": -10.416281700134277
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-hill-beginning",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "124": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100167,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "125": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.320878028869629,
+              "y": 0.9968199729919434,
+              "z": -10.563843727111816
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-hill-complete-half",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "126": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100168,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "127": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.925477504730225,
+              "y": 0.9265995025634766,
+              "z": -10.927571296691895
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-hill-complete",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "128": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100169,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "129": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.297112464904785,
+              "y": 1.0911645889282227,
+              "z": -11.234273910522461
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-hill-end",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "130": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100170,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "131": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.87936782836914,
+              "y": 1.2650480270385742,
+              "z": -11.4349946975708
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-skew-left-side",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "132": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100171,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "133": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.320850372314453,
+              "y": 1.4566316604614258,
+              "z": -11.291101455688477
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-skew-left",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "134": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100172,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "135": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.817768096923828,
+              "y": 1.7107110023498535,
+              "z": -11.43122386932373
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-skew-right-side",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "136": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100173,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "137": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.343795776367188,
+              "y": 2.0536837577819824,
+              "z": -11.641800880432129
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight-skew-right",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "138": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100174,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "139": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.770589828491211,
+              "y": 2.4392929077148438,
+              "z": -11.019326210021973
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide-straight",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "140": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100175,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "141": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.460050106048584,
+              "y": 1.6352949142456055,
+              "z": -9.877908706665039
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-striped-wide",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "142": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100176,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "143": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.852987289428711,
+              "y": 1.3357019424438477,
+              "z": -10.40695571899414
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-cap-back",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "144": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100177,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "145": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.580700874328613,
+              "y": 1.2353324890136719,
+              "z": -9.997461318969727
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-cap-front",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "146": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100178,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "147": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.708951950073242,
+              "y": 1.0914950370788574,
+              "z": -10.489570617675781
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-large-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "148": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100179,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "149": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.725478649139404,
+              "y": 1.0742216110229492,
+              "z": -10.565245628356934
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "150": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100180,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "151": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.187648296356201,
+              "y": 1.0984654426574707,
+              "z": -10.149713516235352
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-small-ramp",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "152": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100181,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "153": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.122503280639648,
+              "y": 0.9933071136474609,
+              "z": -10.534905433654785
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-small",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "154": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100182,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "155": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.880350112915039,
+              "y": 1.1785173416137695,
+              "z": -10.12246322631836
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-curve",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "156": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100183,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "157": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.085416793823242,
+              "y": 1.2566375732421875,
+              "z": -9.995915412902832
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-bend-large",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "158": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100184,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "159": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.335868835449219,
+              "y": 1.3456358909606934,
+              "z": -9.91170597076416
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-bend",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "160": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100185,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "161": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.809406280517578,
+              "y": 1.9405817985534668,
+              "z": -10.065479278564453
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-bump-down",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "162": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100186,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "163": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.7978954315185547,
+              "y": 1.9916682243347168,
+              "z": -9.850573539733887
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-bump-up",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "164": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100187,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "165": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.895353317260742,
+              "y": 1.3147192001342773,
+              "z": -10.436758041381836
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-hill-beginning",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "166": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100188,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "167": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.358806133270264,
+              "y": 1.1785149574279785,
+              "z": -10.436001777648926
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-hill-complete-half",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "168": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100189,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "169": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.4413628578186035,
+              "y": 1.0011610984802246,
+              "z": -10.495556831359863
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-hill-complete",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "170": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100190,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "171": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.183263301849365,
+              "y": 0.9541177749633789,
+              "z": -10.802253723144531
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-hill-end",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "172": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100191,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "173": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.049517631530762,
+              "y": 1.0281457901000977,
+              "z": -11.301736831665039
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-skew-left-side",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "174": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100192,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "175": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.522438049316406,
+              "y": 1.5691137313842773,
+              "z": -11.115331649780273
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-skew-left",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "176": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100193,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "177": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.934232711791992,
+              "y": 1.7807636260986328,
+              "z": -11.43038558959961
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-skew-right-side",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "178": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100194,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "179": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.444133758544922,
+              "y": 2.135097026824951,
+              "z": -11.856335639953613
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight-skew-right",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "180": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100195,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "181": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.584182739257813,
+              "y": 2.2698521614074707,
+              "z": -12.142253875732422
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "182": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "183": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 9.93623161315918,
+              "y": 1.8200016021728516,
+              "z": -10.96898078918457
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "184": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100197,
+            "materials": [
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "185": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.948394775390625,
+              "y": 1.6876134872436523,
+              "z": -13.429560661315918
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-drag-racer",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "186": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100198,
+            "materials": [
+              100207,
+              0,
+              100207,
+              100207,
+              100207,
+              100207
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "187": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.1487016677856445,
+              "y": 2.9066529273986816,
+              "z": -13.793187141418457
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-monster-truck",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "188": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100199,
+            "materials": [
+              15,
+              15,
+              15,
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "189": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.1121978759765625,
+              "y": 2.426750659942627,
+              "z": -13.602913856506348
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-racer-low",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "190": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100200,
+            "materials": [
+              100207,
+              0,
+              100207,
+              100207,
+              100207,
+              100207
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "191": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.082769393920898,
+              "y": 2.2121505737304688,
+              "z": -13.640009880065918
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-racer",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "192": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100201,
+            "materials": [
+              15,
+              15,
+              15,
+              15,
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "193": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.4067492485046387,
+              "y": 3.0845232009887695,
+              "z": -12.667098045349121
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-speedster",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "194": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100202,
+            "materials": [
+              15,
+              15,
+              15,
+              15,
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "195": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 5.060727596282959,
+              "y": 2.213233470916748,
+              "z": -12.34447193145752
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-suv",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "196": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100203,
+            "materials": [
+              15,
+              15,
+              15,
+              15,
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "197": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 6.332004547119141,
+              "y": 1.9657773971557617,
+              "z": -12.523763656616211
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-truck",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "198": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100204,
+            "materials": [
+              15,
+              15,
+              15,
+              15,
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "199": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.523581027984619,
+              "y": 1.9724922180175781,
+              "z": -12.530938148498535
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-vintage-racer",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "200": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100205,
+            "materials": [
+              15,
+              15,
+              15,
+              15,
+              15,
+              15
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "201": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 7.152557373046875e-07,
+              "y": -0.33306825160980225,
+              "z": 9.5367431640625e-06
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": -0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "vehicle-racer-low (1)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "202": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100200,
+            "materials": [
+              100207,
+              0,
+              100207,
+              100207,
+              100207,
+              100207
+            ]
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "203": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": -32.43632888793945
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 50.0,
+              "y": 1.0,
+              "z": 50.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "204": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100275
+            ]
+          },
+          "Enabled": true
+        },
+        "205": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "206": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -2.129110813140869,
+              "y": 1.4894673824310303,
+              "z": -31.54115104675293
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Car",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        213
+      ],
+      "Components": {
+        "207": {
+          "Type": "SphereCollider",
+          "Values": {
+            "size": 0.699999988079071,
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "208": {
+          "Type": "RigidBody",
+          "Values": {
+            "isStatic": false,
+            "gravityMultiplier": 1.0,
+            "drag": 0.10000000149011612,
+            "angularDrag": 0.8999999761581421,
+            "bounce": 0.0,
+            "mass": 1.0,
+            "friction": 1.0,
+            "lockedMovementAxis": {
+              "Values": {
+                "x": false,
+                "y": false,
+                "z": false
+              }
+            },
+            "lockedRotationAxis": {
+              "Values": {
+                "x": false,
+                "y": false,
+                "z": false
+              }
+            }
+          },
+          "Enabled": true
+        },
+        "212": {
+          "Type": "Car",
+          "Values": {
+            "rigidBody": 208,
+            "force": 5.0,
+            "steeringForce": 1.0,
+            "carGO": 213
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "209": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -1.8191719055175781,
+              "y": 0.32076865434646606,
+              "z": -35.24209976196289
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": -0.08715574443340302,
+              "w": 0.9961947202682495
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 5.0,
+              "y": 1.0,
+              "z": 5.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (1)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "210": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100276
+            ]
+          },
+          "Enabled": true
+        },
+        "211": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "213": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        201
+      ]
+    },
+    "214": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 2.907397985458374,
+              "y": 0.3452930450439453,
+              "z": -35.167057037353516
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.08682408928871155,
+              "y": -0.007596123963594437,
+              "z": 0.08682408928871155,
+              "w": 0.9924039244651794
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 5.0,
+              "y": 1.0,
+              "z": 5.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (2)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "215": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100276
+            ]
+          },
+          "Enabled": true
+        },
+        "216": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    }
+  },
+  "Lighting": {
+    "Values": {
+      "skybox": 0,
+      "skyColor": {
+        "Values": {
+          "rgba": {
+            "Values": {
+              "r": 0.09803921729326248,
+              "g": 0.09803921729326248,
+              "b": 0.09803921729326248,
+              "a": 1.0
+            }
+          }
+        }
+      },
+      "isFogEnabled": false,
+      "fogStart": 10.0,
+      "fogEnd": 50.0,
+      "fogColor": {
+        "Values": {
+          "rgba": {
+            "Values": {
+              "r": 0.5960784554481506,
+              "g": 0.5960784554481506,
+              "b": 0.5960784554481506,
+              "a": 1.0
+            }
+          }
+        }
+      }
+    }
+  },
+  "UsedFiles": {
+    "Values": [
+      100100,
+      100207,
+      100101,
+      100102,
+      100103,
+      100104,
+      100105,
+      15,
+      100106,
+      100107,
+      100108,
+      100109,
+      100110,
+      100111,
+      100112,
+      100113,
+      100114,
+      100115,
+      100116,
+      100117,
+      100118,
+      100119,
+      100120,
+      100121,
+      100133,
+      100134,
+      100135,
+      100136,
+      100137,
+      100138,
+      100139,
+      100140,
+      100141,
+      100142,
+      100143,
+      100144,
+      100145,
+      100146,
+      100147,
+      100148,
+      100149,
+      100150,
+      100151,
+      100152,
+      100153,
+      100154,
+      100155,
+      100156,
+      100157,
+      100158,
+      100159,
+      100160,
+      100161,
+      100162,
+      100163,
+      100164,
+      100165,
+      100166,
+      100167,
+      100168,
+      100169,
+      100170,
+      100171,
+      100172,
+      100173,
+      100174,
+      100175,
+      100176,
+      100177,
+      100178,
+      100179,
+      100180,
+      100181,
+      100182,
+      100183,
+      100184,
+      100185,
+      100186,
+      100187,
+      100188,
+      100189,
+      100190,
+      100191,
+      100192,
+      100193,
+      100194,
+      100195,
+      100196,
+      100197,
+      100198,
+      100199,
+      100200,
+      100201,
+      100202,
+      100203,
+      100204,
+      100205,
+      2,
+      100275,
+      100276
+    ]
+  }
+}
