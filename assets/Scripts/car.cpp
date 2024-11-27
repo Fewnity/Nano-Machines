@@ -34,15 +34,15 @@ void Car::Update()
     // }
 
     float vel = rigidBody.lock()->GetVelocity().Magnitude() / 3;
-    if(vel > 1)
+    // if(vel > 1)
         vel = 1;
     if(InputSystem::GetKey(KeyCode::LEFT))
     {
-        rigidBody.lock()->SetAngular(Vector3(0, -steeringForce * vel, 0));
+        rigidBody.lock()->ApplyTorque(Vector3(0, -steeringForce * vel, 0));
     }
     if(InputSystem::GetKey(KeyCode::RIGHT))
     {
-        rigidBody.lock()->SetAngular(Vector3(0, steeringForce * vel, 0));
+        rigidBody.lock()->ApplyTorque(Vector3(0, steeringForce * vel, 0));
     }
 
     // if(InputSystem::GetKey(KeyCode::LEFT))
@@ -55,13 +55,19 @@ void Car::Update()
     // }
     if(InputSystem::GetKey(KeyCode::UP))
     {
-        rigidBody.lock()->SetAngular(carGO.lock()->GetTransform()->GetLeft() * -force);
+        rigidBody.lock()->ApplyTorque(carGO.lock()->GetTransform()->GetLeft() * -force);
     }
     if(InputSystem::GetKey(KeyCode::DOWN))
     {
-        rigidBody.lock()->SetAngular(carGO.lock()->GetTransform()->GetLeft() * force);
+        rigidBody.lock()->ApplyTorque(carGO.lock()->GetTransform()->GetLeft() * force);
     }
 
+    // Vector3 fwd = carGO.lock()->GetTransform()->GetLeft();
+    // fwd.x = -fwd.x;
+    // fwd.y = 1;
+    // rigidBody.lock()->SetAngularFactor(fwd);
+
+    Debug::Print(rigidBody.lock()->GetTorque().ToString());
     // if(InputSystem::GetKey(KeyCode::LEFT))
     // {
     //     rigidBody.lock()->SetAngular(GetTransform()->GetLeft() * force);
@@ -76,13 +82,21 @@ void Car::Update()
 
 void Car::OnDrawGizmos()
 {
-// #if defined(EDITOR)
-// Color lineColor = Color::CreateFromRGBAFloat(0, 1, 0, 1);
+#if defined(EDITOR)
+    Color lineColor = Color::CreateFromRGBAFloat(0, 1, 0, 1);
 
-// Gizmo::SetColor(lineColor);
+    Gizmo::SetColor(lineColor);
 
-// Gizmo::DrawLine(GetTransform()->GetPosition(), GetTransform()->GetPosition() + GetTransform()->GetForward() * 3);
-// #endif
+    Gizmo::DrawLine(GetTransform()->GetPosition(), GetTransform()->GetPosition() + carGO.lock()->GetTransform()->GetForward() * 3);
+
+    Color velocityDirlineColor = Color::CreateFromRGBAFloat(1, 1, 0, 1);
+
+    Gizmo::SetColor(velocityDirlineColor);
+    
+    Vector3 t = rigidBody.lock()->GetTorque();
+    t.y = 0;
+    Gizmo::DrawLine(GetTransform()->GetPosition(), GetTransform()->GetPosition() + t * 3);
+#endif
 }
 
 /**

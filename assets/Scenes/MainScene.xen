@@ -4865,8 +4865,8 @@
           "Type": "Car",
           "Values": {
             "rigidBody": 208,
-            "force": 5.0,
-            "steeringForce": 1.0,
+            "force": 0.5,
+            "steeringForce": 0.5,
             "carGO": 213
           },
           "Enabled": true
