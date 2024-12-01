@@ -3,7 +3,7 @@
 "MetaVersion": 1,
 "Standalone": {
 "Values": {
-"resolution": 2048,
+"resolution": 64,
 "useMipMap": false,
 "mipmaplevelCount": 0,
 "filter": 1,
@@ -13,7 +13,7 @@
 },
 "PSP": {
 "Values": {
-"resolution": 2048,
+"resolution": 64,
 "useMipMap": false,
 "mipmaplevelCount": 0,
 "filter": 1,
@@ -25,7 +25,7 @@
 },
 "PSVITA": {
 "Values": {
-"resolution": 2048,
+"resolution": 64,
 "useMipMap": false,
 "mipmaplevelCount": 0,
 "filter": 1,
@@ -35,7 +35,7 @@
 },
 "PS3": {
 "Values": {
-"resolution": 2048,
+"resolution": 64,
 "useMipMap": false,
 "mipmaplevelCount": 0,
 "filter": 1,

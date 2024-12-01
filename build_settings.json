@@ -1,0 +1,36 @@
+{
+"Linux": {
+"Values": {
+"icon": 0
+}
+},
+"PS3": {
+"Values": {
+"isDebugMode": false
+}
+},
+"PSP": {
+"Values": {
+"backgroundImage": 0,
+"enableProfiler": false,
+"iconImage": 0,
+"isDebugMode": false,
+"previewImage": 0
+}
+},
+"PsVita": {
+"Values": {
+"backgroundImage": 0,
+"enableProfiler": false,
+"gameId": "XENY00005",
+"iconImage": 0,
+"isDebugMode": false,
+"startupImage": 0
+}
+},
+"Windows": {
+"Values": {
+"icon": 0
+}
+}
+}

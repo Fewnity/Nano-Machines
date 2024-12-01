@@ -3,6 +3,7 @@
 
 //----- Include all your classes here:
 #include "Scripts/car.h"
+#include "Scripts/camera_follow.h"
 
 /**
 * Register all your classes here:
@@ -10,4 +11,5 @@
 void Game::Start()
 {
 	REGISTER_COMPONENT(Car);
+	REGISTER_COMPONENT(CameraFollow);
 }

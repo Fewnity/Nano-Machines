@@ -20,4 +20,8 @@ public:
 private:
     std::weak_ptr<GameObject> carGO;
     std::weak_ptr<RigidBody> rigidBody;
+    float yTorque = 0;
+    float yTorqueAdd = 0;
+    float yTorqueAddSpeed = 0;
+    float jumpForce = 1;
 };
