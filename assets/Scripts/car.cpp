@@ -49,7 +49,7 @@ void Car::Update()
 
 
     bool hasTurned = false;
-    if(InputSystem::GetKey(KeyCode::LEFT))
+    if(InputSystem::GetKey(KeyCode::LEFT) && playerIndex == 0)
     {
         yTorqueAdd += Time::GetDeltaTime() * yTorqueAddSpeed;
         if(yTorqueAdd > steeringForce)
@@ -58,7 +58,7 @@ void Car::Update()
         hasTurned = true;
         // rigidBody.lock()->ApplyTorque(Vector3(0, -steeringForce * vel, 0));
     }
-    if(InputSystem::GetKey(KeyCode::RIGHT))
+    if(InputSystem::GetKey(KeyCode::RIGHT) && playerIndex == 0)
     {
         yTorqueAdd += Time::GetDeltaTime() * yTorqueAddSpeed;
         if(yTorqueAdd > steeringForce)
@@ -104,11 +104,11 @@ void Car::Update()
         realSteeringSpeed = 1;
     }
 
-    if(InputSystem::GetKey(KeyCode::UP))
+    if(InputSystem::GetKey(KeyCode::UP) && playerIndex == 0)
     {
         rigidBody.lock()->ApplyTorque(carGO.lock()->GetTransform()->GetLeft() * -force);
     }
-    if(InputSystem::GetKey(KeyCode::DOWN))
+    if(InputSystem::GetKey(KeyCode::DOWN) && playerIndex == 0)
     {
         rigidBody.lock()->ApplyTorque(carGO.lock()->GetTransform()->GetLeft() * force);
     }
@@ -116,18 +116,18 @@ void Car::Update()
     Vector3 moveDir;
     if (moveDir.x == 0 && moveDir.z == 0)
     {
-        moveDir.x = InputSystem::leftJoystick.x;
+        moveDir.x = InputSystem::GetLeftJoystick(playerIndex).x;
         if(realSpeed < 0)
         {    
             moveDir.x = -moveDir.x;
         }
         // moveDir.z = InputSystem::leftJoystick.y;
     }
-    if(InputSystem::GetKey(KeyCode::CROSS))
+    if(InputSystem::GetKey(KeyCode::CROSS, playerIndex))
     {
         moveDir.z = -1;
     }
-    if(InputSystem::GetKey(KeyCode::SQUARE))
+    if(InputSystem::GetKey(KeyCode::SQUARE, playerIndex))
     {
         moveDir.z = 1;
     }
@@ -144,7 +144,7 @@ void Car::Update()
     perpendicular.y = yTorque;
     rigidBody.lock()->SetAngularVelocity(perpendicular);
 
-    if(InputSystem::GetKeyDown(KeyCode::RTRIGGER1))
+    if(InputSystem::GetKeyDown(KeyCode::RTRIGGER1, playerIndex))
     {
         Vector3 currentVel = rigidBody.lock()->GetVelocity();
         currentVel.y += jumpForce;
@@ -210,13 +210,14 @@ void Car::OnDrawGizmos()
 */
 ReflectiveData Car::GetReflectiveData()
 {
-    ReflectiveData reflectedVariables;
-    Reflective::AddVariable(reflectedVariables, rigidBody, "rigidBody", true); // true = isVisibleInInspector
-    Reflective::AddVariable(reflectedVariables, force, "force", true);
-    Reflective::AddVariable(reflectedVariables, steeringForce, "steeringForce", true);
-    Reflective::AddVariable(reflectedVariables, carGO, "carGO", true);
-    Reflective::AddVariable(reflectedVariables, yTorqueAdd, "yTorqueAdd", true);
-    Reflective::AddVariable(reflectedVariables, yTorqueAddSpeed, "yTorqueAddSpeed", true);
-    Reflective::AddVariable(reflectedVariables, jumpForce, "jumpForce", true);
-    return reflectedVariables;
+    BEGIN_REFLECTION();
+    ADD_VARIABLE(playerIndex, true);
+    ADD_VARIABLE(rigidBody, true);
+    ADD_VARIABLE(force, true);
+    ADD_VARIABLE(steeringForce, true);
+    ADD_VARIABLE(carGO, true);
+    ADD_VARIABLE(yTorqueAdd, true);
+    ADD_VARIABLE(yTorqueAddSpeed, true);
+    ADD_VARIABLE(jumpForce, true);
+    END_REFLECTION();
 }

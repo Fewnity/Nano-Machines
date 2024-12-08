@@ -24,4 +24,5 @@ private:
     float yTorqueAdd = 0;
     float yTorqueAddSpeed = 0;
     float jumpForce = 1;
+    int playerIndex = 0;
 };

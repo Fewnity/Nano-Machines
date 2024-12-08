@@ -21,7 +21,7 @@
 "PsVita": {
 "Values": {
 "backgroundImage": 0,
-"enableProfiler": false,
+"enableProfiler": true,
 "gameId": "XENY00005",
 "iconImage": 0,
 "isDebugMode": false,

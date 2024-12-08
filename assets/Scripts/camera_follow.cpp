@@ -32,12 +32,12 @@ void CameraFollow::Update()
 
 ReflectiveData CameraFollow::GetReflectiveData()
 {
-	ReflectiveData reflectedVariables;
-	Reflective::AddVariable(reflectedVariables, cameraTarget, "cameraTarget", true);
-	Reflective::AddVariable(reflectedVariables, offset, "offset", true);
-	Reflective::AddVariable(reflectedVariables, moveSpeed, "moveSpeed", true);
-	Reflective::AddVariable(reflectedVariables, lockX, "lockX", true);
-	Reflective::AddVariable(reflectedVariables, lockY, "lockY", true);
-	Reflective::AddVariable(reflectedVariables, lockZ, "lockZ", true);
-	return reflectedVariables;
+	BEGIN_REFLECTION();
+	ADD_VARIABLE(cameraTarget, true);
+	ADD_VARIABLE(offset, true);
+	ADD_VARIABLE(moveSpeed, true);
+	ADD_VARIABLE(lockX, true);
+	ADD_VARIABLE(lockY, true);
+	ADD_VARIABLE(lockZ, true);
+	END_REFLECTION();
 }
