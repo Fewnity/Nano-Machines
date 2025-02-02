@@ -4,7 +4,7 @@
 "gameName": "Nano Machines",
 "companyName": "",
 "startScene": 100097,
-"engineVersion": "0.1",
+"engineVersion": "0.1.0",
 "compiledLibEngineVersion": "2",
 "isLibCompiledForDebug": true,
 "isLibCompiledFor64Bits": true
