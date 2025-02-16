@@ -11,6 +11,6 @@
 */
 void Game::Start()
 {
-	REGISTER_COMPONENT(Car);
-	REGISTER_COMPONENT(CameraFollow);
+	REGISTER_COMPONENT(Car, false);
+	REGISTER_COMPONENT(CameraFollow, false);
 }
