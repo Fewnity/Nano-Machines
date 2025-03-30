@@ -98,9 +98,11 @@
       100203,
       100204,
       100205,
+      100206,
       100207,
       100342,
       100343,
+      100345,
       100521,
       100522,
       100524,
@@ -140,7 +142,7 @@
       },
       "Values": {
         "name": "Camera",
-        "active": false,
+        "active": true,
         "isStatic": false
       },
       "Children": [],
@@ -230,7 +232,8 @@
             "intensity": 0.5,
             "range": 10.0,
             "spotAngle": 30.0,
-            "spotSmoothness": 0.0
+            "spotSmoothness": 0.0,
+            "oldConsoleCompatibility": true
           },
           "Enabled": true
         }
@@ -289,7 +292,8 @@
             "intensity": 0.5,
             "range": 10.0,
             "spotAngle": 30.0,
-            "spotSmoothness": 0.0
+            "spotSmoothness": 0.0,
+            "oldConsoleCompatibility": true
           },
           "Enabled": true
         }
@@ -335,7 +339,8 @@
             "meshData": 100149,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -511,8 +516,13 @@
           "Values": {
             "meshData": 100203,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -558,7 +568,8 @@
             "meshData": 100151,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -604,7 +615,8 @@
             "meshData": 100100,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -650,7 +662,8 @@
             "meshData": 100101,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -696,7 +709,8 @@
             "meshData": 100102,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -742,7 +756,8 @@
             "meshData": 100103,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -788,7 +803,8 @@
             "meshData": 100104,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -834,7 +850,8 @@
             "meshData": 100105,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -880,7 +897,8 @@
             "meshData": 100106,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -926,7 +944,8 @@
             "meshData": 100107,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -972,7 +991,8 @@
             "meshData": 100108,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1018,7 +1038,8 @@
             "meshData": 100109,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1064,7 +1085,8 @@
             "meshData": 100110,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1110,7 +1132,8 @@
             "meshData": 100111,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1156,7 +1179,8 @@
             "meshData": 100112,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1202,7 +1226,8 @@
             "meshData": 100113,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1248,7 +1273,8 @@
             "meshData": 100114,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1294,7 +1320,8 @@
             "meshData": 100115,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1340,7 +1367,8 @@
             "meshData": 100116,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1386,7 +1414,8 @@
             "meshData": 100117,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1432,7 +1461,8 @@
             "meshData": 100118,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1478,7 +1508,8 @@
             "meshData": 100119,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1524,7 +1555,8 @@
             "meshData": 100120,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1570,7 +1602,8 @@
             "meshData": 100121,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1616,7 +1649,8 @@
             "meshData": 100133,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1662,7 +1696,8 @@
             "meshData": 100134,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1708,7 +1743,8 @@
             "meshData": 100135,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1754,7 +1790,8 @@
             "meshData": 100136,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1800,7 +1837,8 @@
             "meshData": 100137,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1846,7 +1884,8 @@
             "meshData": 100138,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1892,7 +1931,8 @@
             "meshData": 100139,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1938,7 +1978,8 @@
             "meshData": 100140,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -1984,7 +2025,8 @@
             "meshData": 100141,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2030,7 +2072,8 @@
             "meshData": 100142,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2076,7 +2119,8 @@
             "meshData": 100143,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2122,7 +2166,8 @@
             "meshData": 100144,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2168,7 +2213,8 @@
             "meshData": 100145,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2214,7 +2260,8 @@
             "meshData": 100146,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2260,7 +2307,8 @@
             "meshData": 100147,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2306,7 +2354,8 @@
             "meshData": 100148,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2352,7 +2401,8 @@
             "meshData": 100150,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2398,7 +2448,8 @@
             "meshData": 100152,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2444,7 +2495,8 @@
             "meshData": 100153,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2490,7 +2542,8 @@
             "meshData": 100154,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2536,7 +2589,8 @@
             "meshData": 100155,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2582,7 +2636,8 @@
             "meshData": 100156,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2628,7 +2683,8 @@
             "meshData": 100157,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2674,7 +2730,8 @@
             "meshData": 100158,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2720,7 +2777,8 @@
             "meshData": 100159,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2766,7 +2824,8 @@
             "meshData": 100160,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2812,7 +2871,8 @@
             "meshData": 100161,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2858,7 +2918,8 @@
             "meshData": 100162,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2904,7 +2965,8 @@
             "meshData": 100163,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2950,7 +3012,8 @@
             "meshData": 100164,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -2996,7 +3059,8 @@
             "meshData": 100165,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3042,7 +3106,8 @@
             "meshData": 100166,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3088,7 +3153,8 @@
             "meshData": 100167,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3134,7 +3200,8 @@
             "meshData": 100168,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3180,7 +3247,8 @@
             "meshData": 100169,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3226,7 +3294,8 @@
             "meshData": 100170,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3272,7 +3341,8 @@
             "meshData": 100171,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3318,7 +3388,8 @@
             "meshData": 100172,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3364,7 +3435,8 @@
             "meshData": 100173,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3410,7 +3482,8 @@
             "meshData": 100174,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3456,7 +3529,8 @@
             "meshData": 100175,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3502,7 +3576,8 @@
             "meshData": 100176,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3548,7 +3623,8 @@
             "meshData": 100177,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3594,7 +3670,8 @@
             "meshData": 100178,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3640,7 +3717,8 @@
             "meshData": 100179,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3686,7 +3764,8 @@
             "meshData": 100180,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3732,7 +3811,8 @@
             "meshData": 100181,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3778,7 +3858,8 @@
             "meshData": 100182,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3824,7 +3905,8 @@
             "meshData": 100183,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3870,7 +3952,8 @@
             "meshData": 100184,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3916,7 +3999,8 @@
             "meshData": 100185,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -3962,7 +4046,8 @@
             "meshData": 100186,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4008,7 +4093,8 @@
             "meshData": 100187,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4054,7 +4140,8 @@
             "meshData": 100188,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4100,7 +4187,8 @@
             "meshData": 100189,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4146,7 +4234,8 @@
             "meshData": 100190,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4192,7 +4281,8 @@
             "meshData": 100191,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4238,7 +4328,8 @@
             "meshData": 100192,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4284,7 +4375,8 @@
             "meshData": 100193,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4330,7 +4422,8 @@
             "meshData": 100194,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4376,7 +4469,8 @@
             "meshData": 100195,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4422,7 +4516,8 @@
             "meshData": 100196,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4468,7 +4563,8 @@
             "meshData": 100197,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4513,8 +4609,13 @@
           "Values": {
             "meshData": 100198,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4559,8 +4660,13 @@
           "Values": {
             "meshData": 100199,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4605,8 +4711,13 @@
           "Values": {
             "meshData": 100200,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4651,8 +4762,13 @@
           "Values": {
             "meshData": 100201,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4697,8 +4813,13 @@
           "Values": {
             "meshData": 100202,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4743,8 +4864,13 @@
           "Values": {
             "meshData": 100204,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4789,8 +4915,13 @@
           "Values": {
             "meshData": 100205,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4835,8 +4966,13 @@
           "Values": {
             "meshData": 100200,
             "materials": [
+              100207,
+              100207,
+              100207,
+              100207,
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -4882,7 +5018,8 @@
             "meshData": 27,
             "materials": [
               100524
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -4950,7 +5087,8 @@
             "meshData": 100101,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5005,7 +5143,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": -2.129110813140869,
+              "x": 0.4208815097808838,
               "y": 0.8500000238418579,
               "z": -36.129600524902344
             }
@@ -5135,7 +5273,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5196,7 +5335,8 @@
         "isStatic": false
       },
       "Children": [
-        201
+        201,
+        4979242425518409125
       ]
     },
     "214": {
@@ -5239,7 +5379,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5309,7 +5450,8 @@
             "meshData": 100343,
             "materials": [
               100522
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -5357,7 +5499,8 @@
             "meshData": 100342,
             "materials": [
               100522
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -5403,7 +5546,8 @@
             "meshData": 100104,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5587,7 +5731,8 @@
             "meshData": 100101,
             "materials": [
               100207
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5677,7 +5822,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5745,7 +5891,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5813,7 +5960,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -5883,7 +6031,8 @@
             "meshData": 100343,
             "materials": [
               100522
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -5987,7 +6136,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -6055,7 +6205,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -6123,7 +6274,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -6191,7 +6343,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -6389,8 +6542,13 @@
           "Values": {
             "meshData": 100200,
             "materials": [
-              100207
-            ]
+              100207,
+              0,
+              0,
+              0,
+              0
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6489,7 +6647,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6535,7 +6694,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6581,7 +6741,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6627,7 +6788,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6673,7 +6835,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6719,7 +6882,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6765,7 +6929,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6811,7 +6976,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6857,7 +7023,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6903,7 +7070,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6949,7 +7117,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -6995,7 +7164,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -7041,7 +7211,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
@@ -7366,7 +7537,7 @@
       },
       "Values": {
         "name": "TestLevel",
-        "active": false,
+        "active": true,
         "isStatic": false
       },
       "Children": [
@@ -7535,7 +7706,8 @@
             "meshData": 2,
             "materials": [
               100525
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -7592,7 +7764,7 @@
       },
       "Values": {
         "name": "Camera (1)",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [],
@@ -7748,7 +7920,8 @@
             "meshData": 2,
             "materials": [
               100525
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -7884,7 +8057,8 @@
             "meshData": 2,
             "materials": [
               100525
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -7952,7 +8126,8 @@
             "meshData": 2,
             "materials": [
               100525
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8020,7 +8195,8 @@
             "meshData": 2,
             "materials": [
               100525
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8154,7 +8330,8 @@
             "meshData": 2,
             "materials": [
               100525
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8222,7 +8399,8 @@
             "meshData": 2,
             "materials": [
               100525
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8290,7 +8468,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8347,7 +8526,7 @@
       },
       "Values": {
         "name": "Arenas1",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [
@@ -8394,7 +8573,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8462,7 +8642,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8530,7 +8711,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8598,7 +8780,8 @@
             "meshData": 2,
             "materials": [
               100521
-            ]
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         },
@@ -8684,6 +8867,1065 @@
                 "z": false
               }
             }
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "10592398337741133604": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.6273525953292847,
+              "y": 1.4806119203567505,
+              "z": -38.469146728515625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "5387296012059665979": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 200.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 2.0,
+            "speedMax": 5.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 10000.0,
+            "maxParticles": 200000.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "4979242425518409125": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.036373525857925415,
+              "y": -0.18982607126235962,
+              "z": -0.3926811218261719
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": -1.0,
+              "z": -0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (1)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "3752299906427333114": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100107,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 10.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 0.0,
+            "speedMax": 0.0,
+            "lifeTimeMin": 1.0,
+            "lifeTimeMax": 1.0,
+            "spawnRate": 5.0,
+            "maxParticles": 100.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "9043878950965424655": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.6273525953292847,
+              "y": 1.4806119203567505,
+              "z": -38.469146728515625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (2)",
+        "active": false,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "2208485978597733602": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 200.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 1.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 10.0,
+            "maxParticles": 20.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "5460068564315859824": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.882238388061523,
+              "y": 1.0,
+              "z": -38.469146728515625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (3)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        14204090870998443699
+      ],
+      "Components": {
+        "16898961473895903954": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 1.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 1.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 5.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "14204090870998443699": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.4632594585418701,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.10000000149011612,
+              "y": 1.0,
+              "z": 0.10000000149011612
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "750170219185787627": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100345
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "13429865584409726219": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.854562282562256,
+              "y": 1.0,
+              "z": -38.469146728515625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.3826834559440613,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.9238795042037964
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 1.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (4)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        3659330207747497879
+      ],
+      "Components": {
+        "11762076478629182225": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 1.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 1.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 5.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "3659330207747497879": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.4632594585418701,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.10000000149011612,
+              "y": 1.0,
+              "z": 0.10000000149011612
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "10465320574671337957": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100345
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "6509925787125832603": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 2.4733612537384033,
+              "y": 1.0,
+              "z": -38.469146728515625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.3826834559440613,
+              "z": 0.0,
+              "w": 0.9238795042037964
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (5)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        15528840523186214695
+      ],
+      "Components": {
+        "2942296950673118209": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 1.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 1.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 5.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "15528840523186214695": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.4632594585418701,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.10000000149011612,
+              "y": 1.0,
+              "z": 0.10000000149011612
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "9684057726125650074": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100345
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "5171217682560900966": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.387458086013794,
+              "y": 1.0,
+              "z": -38.469146728515625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.3826834559440613,
+              "w": 0.9238795042037964
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 2.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (6)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        11637842397091191319
+      ],
+      "Components": {
+        "18162898243313557837": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 1.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 1.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 5.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "11637842397091191319": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.4632594585418701,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.10000000149011612,
+              "y": 1.0,
+              "z": 0.10000000149011612
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "6269215685133649644": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100345
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "37430782492885292": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -1.0405619144439697,
+              "y": 1.0,
+              "z": -38.469146728515625
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.3097265362739563,
+              "y": 0.21011024713516235,
+              "z": 0.4112739861011505,
+              "w": 0.831129789352417
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (7)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        12108677018646667182
+      ],
+      "Components": {
+        "2330429486492275283": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 1.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 1.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 5.0,
+            "maxParticles": 10.0,
+            "randomRotation": false,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "12108677018646667182": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.4632594585418701,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.10000000149011612,
+              "y": 1.0,
+              "z": 0.10000000149011612
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "6404830556222591628": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100345
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "4021844843787961362": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.723832130432129,
+              "y": 1.0,
+              "z": -37.24809646606445
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.3535534143447876,
+              "y": 0.3535534143447876,
+              "z": -0.14644663035869598,
+              "w": 0.8535533547401428
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (8)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        11277999405352344884
+      ],
+      "Components": {
+        "16621407387668132032": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 1.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 1.0,
+            "lifeTimeMin": 2.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 5.0,
+            "maxParticles": 10.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "11277999405352344884": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.4632594585418701,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 0.10000000149011612,
+              "y": 1.0,
+              "z": 0.10000000149011612
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "GameObject",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "17607551099454879665": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 2,
+            "materials": [
+              100345
+            ],
+            "useAdvancedLighting": true
           },
           "Enabled": true
         }
