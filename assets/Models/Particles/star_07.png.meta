@@ -13,13 +13,13 @@
 },
 "PSP": {
 "Values": {
-"resolution": 2048,
+"resolution": 64,
 "useMipMap": false,
 "mipmaplevelCount": 0,
 "filter": 1,
 "wrapMode": 3,
 "pixelPerUnit": 100,
-"type": 2,
+"type": 3,
 "tryPutInVram": true
 }
 },
@@ -40,7 +40,8 @@
 "mipmaplevelCount": 0,
 "filter": 1,
 "wrapMode": 3,
-"pixelPerUnit": 100
+"pixelPerUnit": 100,
+"type": 2
 }
 }
 }

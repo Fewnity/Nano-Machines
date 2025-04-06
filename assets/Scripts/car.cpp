@@ -150,6 +150,7 @@ void Car::Update()
         currentVel.y += jumpForce;
         rigidBody.lock()->SetVelocity(currentVel);
     }
+    particleSystem.lock()->SetSpawnRate(realSpeed);
     // Vector3 fwd = carGO.lock()->GetTransform()->GetLeft();
     // fwd.x = -fwd.x;
     // fwd.y = 1;
@@ -213,6 +214,7 @@ ReflectiveData Car::GetReflectiveData()
     BEGIN_REFLECTION();
     ADD_VARIABLE(playerIndex, true);
     ADD_VARIABLE(rigidBody, true);
+    ADD_VARIABLE(particleSystem, true);
     ADD_VARIABLE(force, true);
     ADD_VARIABLE(steeringForce, true);
     ADD_VARIABLE(carGO, true);

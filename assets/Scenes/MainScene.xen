@@ -103,10 +103,15 @@
       100342,
       100343,
       100345,
+      100408,
       100521,
       100522,
       100524,
-      100525
+      100525,
+      8226633440440649918,
+      12006233561389094657,
+      15765770994265380034,
+      17727951481398095679
     ]
   }
 }
@@ -125,10 +130,10 @@
           },
           "localRotationQuaternion": {
             "Values": {
-              "x": -1.1313339598473249e-08,
-              "y": 0.9659258127212524,
-              "z": -0.258819043636322,
-              "w": -4.222195926217864e-08
+              "x": -1.3144268784515134e-08,
+              "y": -0.9537169337272644,
+              "z": 0.30070582032203674,
+              "w": -4.1688291929631305e-08
             }
           },
           "localScale": {
@@ -142,7 +147,7 @@
       },
       "Values": {
         "name": "Camera",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [],
@@ -167,13 +172,17 @@
               "Values": {
                 "x": 0.0,
                 "y": 4.0,
-                "z": 6.0
+                "z": 6.5
               }
             },
-            "moveSpeed": 5.0,
+            "yDistanceMultiplier": 3.0,
+            "zDistanceMultiplier": 3.0,
+            "moveSpeed": 10.0,
+            "rotationSpeed": 5.0,
             "lockX": false,
             "lockY": false,
-            "lockZ": false
+            "lockZ": false,
+            "rearMode": true
           },
           "Enabled": true
         }
@@ -2225,7 +2234,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 7.086188316345215,
+              "x": -1.814406394958496,
               "y": 1.6927733421325684,
               "z": -8.776275634765625
             }
@@ -2601,7 +2610,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 6.931878089904785,
+              "x": 2.2453269958496094,
               "y": 1.2867040634155273,
               "z": -9.465044021606445
             }
@@ -2695,7 +2704,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 6.828919410705566,
+              "x": 0.25417137145996094,
               "y": 0.9325666427612305,
               "z": -10.866133689880371
             }
@@ -2930,7 +2939,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 7.989645004272461,
+              "x": 0.3593740463256836,
               "y": 1.9602174758911133,
               "z": -14.7111177444458
             }
@@ -3024,7 +3033,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 3.3142008781433105,
+              "x": 0.0371851921081543,
               "y": 2.2338690757751465,
               "z": -10.097798347473145
             }
@@ -3118,7 +3127,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 5.336468696594238,
+              "x": 0.24318933486938477,
               "y": 1.1882743835449219,
               "z": -10.416281700134277
             }
@@ -3165,7 +3174,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 6.320878028869629,
+              "x": 1.836263656616211,
               "y": 0.9968199729919434,
               "z": -10.563843727111816
             }
@@ -3212,7 +3221,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 6.925477504730225,
+              "x": 0.7181334495544434,
               "y": 0.9265995025634766,
               "z": -10.927571296691895
             }
@@ -3682,7 +3691,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 5.708951950073242,
+              "x": 32.485023498535156,
               "y": 1.0914950370788574,
               "z": -10.489570617675781
             }
@@ -3729,7 +3738,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 5.725478649139404,
+              "x": 42.89167785644531,
               "y": 1.0742216110229492,
               "z": -10.565245628356934
             }
@@ -3776,7 +3785,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 6.187648296356201,
+              "x": 18.865253448486328,
               "y": 1.0984654426574707,
               "z": -10.149713516235352
             }
@@ -3917,7 +3926,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 8.085416793823242,
+              "x": 23.185977935791016,
               "y": 1.2566375732421875,
               "z": -9.995915412902832
             }
@@ -3964,7 +3973,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 8.335868835449219,
+              "x": 26.622303009033203,
               "y": 1.3456358909606934,
               "z": -9.91170597076416
             }
@@ -4058,7 +4067,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 3.7978954315185547,
+              "x": 24.770967483520508,
               "y": 1.9916682243347168,
               "z": -9.850573539733887
             }
@@ -4105,7 +4114,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 4.895353317260742,
+              "x": 29.19651985168457,
               "y": 1.3147192001342773,
               "z": -10.436758041381836
             }
@@ -4152,7 +4161,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 5.358806133270264,
+              "x": 18.05387306213379,
               "y": 1.1785149574279785,
               "z": -10.436001777648926
             }
@@ -4199,7 +4208,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 6.4413628578186035,
+              "x": 16.429454803466797,
               "y": 1.0011610984802246,
               "z": -10.495556831359863
             }
@@ -4246,7 +4255,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 7.183263301849365,
+              "x": 17.26378059387207,
               "y": 0.9541177749633789,
               "z": -10.802253723144531
             }
@@ -4481,7 +4490,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 16.68970489501953,
+              "x": 38.21600341796875,
               "y": 2.2698521614074707,
               "z": -12.142253875732422
             }
@@ -5075,11 +5084,13 @@
         }
       },
       "Values": {
-        "name": "gate (1)",
+        "name": "gate",
         "active": true,
         "isStatic": false
       },
-      "Children": [],
+      "Children": [
+        2594922095652116099
+      ],
       "Components": {
         "219": {
           "Type": "MeshRenderer",
@@ -5097,7 +5108,7 @@
           "Values": {
             "size": {
               "Values": {
-                "x": 0.30000001192092896,
+                "x": 0.20000000298023224,
                 "y": 1.162500023841858,
                 "z": 0.30000001192092896
               }
@@ -5119,7 +5130,7 @@
           "Values": {
             "size": {
               "Values": {
-                "x": 0.30000001192092896,
+                "x": 0.20000000298023224,
                 "y": 1.162500023841858,
                 "z": 0.30000001192092896
               }
@@ -5222,8 +5233,9 @@
           "Values": {
             "playerIndex": 0,
             "rigidBody": 208,
+            "particleSystem": 3752299906427333114,
             "force": 6.0,
-            "steeringForce": 4.0,
+            "steeringForce": 2.0,
             "carGO": 213,
             "yTorqueAdd": 0.0,
             "yTorqueAddSpeed": 10.0,
@@ -5511,7 +5523,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 1.4982020854949951,
+              "x": 1.664724349975586,
               "y": 1.3413044214248657,
               "z": -38.52093505859375
             }
@@ -5526,9 +5538,9 @@
           },
           "localScale": {
             "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
             }
           }
         }
@@ -5563,13 +5575,21 @@
             },
             "offset": {
               "Values": {
-                "x": 0.13199999928474426,
-                "y": 0.13199999928474426,
-                "z": 0.05000000074505806
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
               }
             },
             "isTrigger": true,
-            "generateCollisionEvents": false
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "15265966863080343865": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 15765770994265380034
           },
           "Enabled": true
         }
@@ -5741,7 +5761,7 @@
           "Values": {
             "size": {
               "Values": {
-                "x": 0.30000001192092896,
+                "x": 0.20000000298023224,
                 "y": 1.162500023841858,
                 "z": 0.30000001192092896
               }
@@ -5763,7 +5783,7 @@
           "Values": {
             "size": {
               "Values": {
-                "x": 0.30000001192092896,
+                "x": 0.20000000298023224,
                 "y": 1.162500023841858,
                 "z": 0.30000001192092896
               }
@@ -5787,9 +5807,9 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 2.506911277770996,
+              "x": 2.841770648956299,
               "y": 0.4252249002456665,
-              "z": -45.456336975097656
+              "z": -45.0
             }
           },
           "localRotationQuaternion": {
@@ -5856,9 +5876,9 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": -1.8514385223388672,
+              "x": -1.4999403953552246,
               "y": 0.4252249002456665,
-              "z": -45.456336975097656
+              "z": -45.0
             }
           },
           "localRotationQuaternion": {
@@ -6456,6 +6476,7 @@
           "Values": {
             "playerIndex": 1,
             "rigidBody": 284,
+            "particleSystem": 0,
             "force": 6.0,
             "steeringForce": 2.0,
             "carGO": 286,
@@ -7629,7 +7650,35 @@
         226,
         214,
         209,
-        218
+        218,
+        13303372844368943742,
+        12661379924823260667,
+        14863345612379635517,
+        12961671394491399259,
+        7576954537763468945,
+        4027510299284051605,
+        6724331554119676278,
+        17885648303882461685,
+        8686855433551910997,
+        6872091341782612983,
+        2572526201636367464,
+        2258796513057526183,
+        147263419721395920,
+        11319462266955464059,
+        901506496013905454,
+        2265306602054386469,
+        2642044940113621757,
+        12231843844376065256,
+        5043390386735406474,
+        6171462458479939477,
+        9750578506101394894,
+        6317689883127617384,
+        15756660858007534317,
+        11134728659976067284,
+        12121882859019266089,
+        6930115824398734361,
+        14937779626295787104,
+        15315186942592109768
       ]
     },
     "343": {
@@ -7792,10 +7841,14 @@
                 "z": 6.0
               }
             },
+            "yDistanceMultiplier": 3.0,
+            "zDistanceMultiplier": 3.0,
             "moveSpeed": 5.0,
+            "rotationSpeed": 5.0,
             "lockX": false,
             "lockY": false,
-            "lockZ": false
+            "lockZ": false,
+            "rearMode": true
           },
           "Enabled": false
         }
@@ -8901,7 +8954,7 @@
       },
       "Values": {
         "name": "Particle System",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [],
@@ -8945,13 +8998,15 @@
             "speedMax": 5.0,
             "lifeTimeMin": 2.0,
             "lifeTimeMax": 2.0,
-            "spawnRate": 10000.0,
-            "maxParticles": 200000.0,
+            "spawnRate": 100.0,
+            "maxParticles": 200.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -8962,17 +9017,17 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 0.036373525857925415,
+              "x": 0.0,
               "y": -0.18982607126235962,
               "z": -0.3926811218261719
             }
           },
           "localRotationQuaternion": {
             "Values": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": -0.0,
-              "w": -4.371138828673793e-08
+              "x": -0.7071067690849304,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.7071067690849304
             }
           },
           "localScale": {
@@ -9026,17 +9081,19 @@
                 "z": 0.0
               }
             },
-            "speedMin": 0.0,
-            "speedMax": 0.0,
-            "lifeTimeMin": 1.0,
-            "lifeTimeMax": 1.0,
-            "spawnRate": 5.0,
+            "speedMin": 2.0,
+            "speedMax": 2.0,
+            "lifeTimeMin": 0.20000000298023224,
+            "lifeTimeMax": 0.20000000298023224,
+            "spawnRate": 20.0,
             "maxParticles": 100.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 2,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9119,9 +9176,11 @@
             "maxParticles": 20.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9156,7 +9215,7 @@
       },
       "Values": {
         "name": "Particle System (3)",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [
@@ -9206,9 +9265,11 @@
             "maxParticles": 10.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9290,7 +9351,7 @@
       },
       "Values": {
         "name": "Particle System (4)",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [
@@ -9340,9 +9401,11 @@
             "maxParticles": 10.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9424,7 +9487,7 @@
       },
       "Values": {
         "name": "Particle System (5)",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [
@@ -9474,9 +9537,11 @@
             "maxParticles": 10.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9558,7 +9623,7 @@
       },
       "Values": {
         "name": "Particle System (6)",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [
@@ -9608,9 +9673,11 @@
             "maxParticles": 10.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9692,7 +9759,7 @@
       },
       "Values": {
         "name": "Particle System (7)",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [
@@ -9742,9 +9809,11 @@
             "maxParticles": 10.0,
             "randomRotation": false,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9826,7 +9895,7 @@
       },
       "Values": {
         "name": "Particle System (8)",
-        "active": true,
+        "active": false,
         "isStatic": false
       },
       "Children": [
@@ -9876,9 +9945,11 @@
             "maxParticles": 10.0,
             "randomRotation": true,
             "isEmitting": true,
+            "simulationRate": 1,
             "worldSimulation": true,
             "loop": true,
-            "play": false
+            "play": false,
+            "useLifeTime": true
           },
           "Enabled": true
         }
@@ -9926,6 +9997,2597 @@
               100345
             ],
             "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "1808645990360691316": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.50853431224823,
+              "y": 1.3581689596176147,
+              "z": -38.51605987548828
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Coin Particle System",
+        "active": false,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "2920456533630551276": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100104,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 200.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 3.0,
+            "speedMax": 3.0,
+            "lifeTimeMin": 0.20000000298023224,
+            "lifeTimeMax": 0.5,
+            "spawnRate": 10.0,
+            "maxParticles": 20.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 2,
+            "worldSimulation": true,
+            "loop": false,
+            "play": false,
+            "useLifeTime": true
+          },
+          "Enabled": true
+        },
+        "5325715301635102367": {
+          "Type": "TimedDestroy",
+          "Values": {
+            "cooldown": 5.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "9333744708935532262": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 3.817507028579712,
+              "y": 1.1191295385360718,
+              "z": -33.905723571777344
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "CheckPoint Particle System",
+        "active": false,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "13718384399894807921": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 0,
+            "material": 17727951481398095679,
+            "texture": 100408,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 0.0,
+                    "g": 1.0,
+                    "b": 0.3797941207885742,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": true,
+            "emitterShape": 1,
+            "coneAngle": 220.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 3.0,
+            "speedMax": 3.0,
+            "lifeTimeMin": 0.20000000298023224,
+            "lifeTimeMax": 0.5,
+            "spawnRate": 10.0,
+            "maxParticles": 20.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 2,
+            "worldSimulation": true,
+            "loop": false,
+            "play": false,
+            "useLifeTime": true
+          },
+          "Enabled": true
+        },
+        "9786885435342345369": {
+          "Type": "TimedDestroy",
+          "Values": {
+            "cooldown": 5.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "2594922095652116099": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.45724934339523315,
+              "z": 1.9073486328125e-06
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "3702703364209715212": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 0.5400000214576721,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "12710592325496816255": {
+          "Type": "CheckPoint",
+          "Values": {
+            "particlesPrefab": 12006233561389094657
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "13303372844368943742": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -8.667680740356445,
+              "y": 0.46932274103164673,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.75,
+              "y": 1.75,
+              "z": 1.399999976158142
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "gate (3)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        2591088766305717021
+      ],
+      "Components": {
+        "2670145646772566697": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100101,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "6028355217967728657": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "12269433806572096529": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": -0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "2591088766305717021": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.45724934339523315,
+              "z": 1.9073486328125e-06
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "12302753302007910513": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 0.5400000214576721,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "7087686171919670375": {
+          "Type": "CheckPoint",
+          "Values": {
+            "particlesPrefab": 12006233561389094657
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "12661379924823260667": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": 0.46932274103164673,
+              "z": -51.226016998291016
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.75,
+              "y": 1.75,
+              "z": 1.399999976158142
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "gate (4)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        13323363364126368579
+      ],
+      "Components": {
+        "18413202517027431269": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100101,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "9772524323766947905": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "13628784977095756013": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": -0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "13323363364126368579": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.45724934339523315,
+              "z": 1.9073486328125e-06
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "2060536419464157906": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 0.5400000214576721,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "2673346346027858667": {
+          "Type": "CheckPoint",
+          "Values": {
+            "particlesPrefab": 12006233561389094657
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "14863345612379635517": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.66727876663208,
+              "y": 0.46932274103164673,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.75,
+              "y": 1.75,
+              "z": 1.399999976158142
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "gate (5)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        18097956355941633016
+      ],
+      "Components": {
+        "4514784823510457305": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100101,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "2304429334705931366": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "18411648381592109383": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": -0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "18097956355941633016": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.45724934339523315,
+              "z": 1.9073486328125e-06
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "5138025090739681157": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 0.5400000214576721,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "9652342889548407643": {
+          "Type": "CheckPoint",
+          "Values": {
+            "particlesPrefab": 12006233561389094657
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "12961671394491399259": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -20.0,
+              "y": 0.46932274103164673,
+              "z": -51.040122985839844
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.75,
+              "y": 1.75,
+              "z": 1.399999976158142
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "gate (7)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [
+        12546672126936795925
+      ],
+      "Components": {
+        "17865757494519311079": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100101,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "13617943985364346011": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        },
+        "6969873992518668447": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.20000000298023224,
+                "y": 1.162500023841858,
+                "z": 0.30000001192092896
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": -0.6000000238418579,
+                "y": 0.581250011920929,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "12546672126936795925": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.45724934339523315,
+              "z": 1.9073486328125e-06
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Trigger",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "12158347988809967632": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 1.0,
+                "y": 0.5400000214576721,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "7206838888354346730": {
+          "Type": "CheckPoint",
+          "Values": {
+            "particlesPrefab": 12006233561389094657
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "7576954537763468945": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": 0.42480000853538513,
+              "z": -53.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (1)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "17066551029399559477": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "4027510299284051605": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.0,
+              "y": 0.42479991912841797,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-large (1)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "8181180744714430479": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100180,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "6724331554119676278": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 8.0,
+              "y": 0.42479991912841797,
+              "z": -53.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 1.0,
+              "z": 0.0,
+              "w": -4.371138828673793e-08
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-large (2)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "4132263623334695425": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100180,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "17885648303882461685": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.42480000853538513,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (2)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "11921186294333662653": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "8686855433551910997": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.0,
+              "y": 0.42480000853538513,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (3)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "9310084661846074201": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "6872091341782612983": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -8.0,
+              "y": 0.42480000853538513,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (4)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "14826595695884609526": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "2572526201636367464": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -12.0,
+              "y": 0.42480000853538513,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (5)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "13833303328623070012": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "2258796513057526183": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -16.0,
+              "y": 0.42480000853538513,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (6)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "2675761294036946954": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "147263419721395920": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -16.0,
+              "y": 0.42479991912841797,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": -0.0,
+              "y": -0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-large (3)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "16434101286562729223": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100180,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "11319462266955464059": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -20.0,
+              "y": 0.42480000853538513,
+              "z": -53.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (7)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "2413146435245665722": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "901506496013905454": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -20.0,
+              "y": 0.42479991912841797,
+              "z": -49.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-corner-large (4)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "11179202017464014986": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100180,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "2265306602054386469": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -16.0,
+              "y": 0.42480000853538513,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (8)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "65239895893694864": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "2642044940113621757": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -12.0,
+              "y": 0.42480000853538513,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (9)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "6536406651498774606": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "12231843844376065256": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -8.0,
+              "y": 0.42480000853538513,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (10)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "6905266235064277727": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "5043390386735406474": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.0,
+              "y": 0.42480000853538513,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (11)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "13915057890357668883": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "6171462458479939477": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.42480000853538513,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.7071067690849304,
+              "z": 0.0,
+              "w": 0.7071067690849304
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "track-wide-straight (12)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "13506126683549153675": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100196,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "9750578506101394894": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 4.302181243896484,
+              "y": 1.1192877292633057,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (3)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "9841101984322922960": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "5403207549411564086": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "9366217072478809522": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 8226633440440649918
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "11258912282690866357": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 1.50853431224823,
+              "y": 1.3581689596176147,
+              "z": -38.51605987548828
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Silver Coin Particle System",
+        "active": false,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "12474259088694303256": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100106,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 200.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 3.0,
+            "speedMax": 3.0,
+            "lifeTimeMin": 0.20000000298023224,
+            "lifeTimeMax": 0.5,
+            "spawnRate": 10.0,
+            "maxParticles": 20.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 2,
+            "worldSimulation": true,
+            "loop": false,
+            "play": false,
+            "useLifeTime": true
+          },
+          "Enabled": true
+        },
+        "7810187012944094463": {
+          "Type": "TimedDestroy",
+          "Values": {
+            "cooldown": 5.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "6317689883127617384": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -9.346565246582031,
+              "y": 1.1192877292633057,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (4)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "17438670521677761145": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "13444376873560949757": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "1962574875864245849": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 8226633440440649918
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "15756660858007534317": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -10.803466796875,
+              "y": 1.1192877292633057,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (5)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "1672092164897596869": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "378405168679970964": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "637502042700218920": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 8226633440440649918
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "11134728659976067284": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -12.200157165527344,
+              "y": 1.1192877292633057,
+              "z": -57.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (6)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "4117919300281742598": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "2758959065951626663": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "18378405941786770154": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 8226633440440649918
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "12121882859019266089": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -14.55692195892334,
+              "y": 1.1192877292633057,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (7)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "17315352940364125199": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "12995692654144849972": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "3677690742978407299": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 8226633440440649918
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "6930115824398734361": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.5509951114654541,
+              "y": 2.2822165489196777,
+              "z": -45.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (8)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "8471987452106625980": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "13326006038525149614": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "15013943602486148918": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 8226633440440649918
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "13360837504658193220": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -2.1291000843048096,
+              "y": 4.851099967956543,
+              "z": -25.541099548339844
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.2164396345615387,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 0.9762960076332092
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Camera (2)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "4645305381044083217": {
+          "Type": "Camera",
+          "Values": {
+            "projectionType": 0,
+            "fov": 55.0,
+            "projectionSize": 5.0,
+            "nearClippingPlane": 1.0,
+            "farClippingPlane": 100.0,
+            "useMultisampling": true
+          },
+          "Enabled": true
+        },
+        "13572813517154068330": {
+          "Type": "CameraFollow",
+          "Values": {
+            "cameraTarget": 213,
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 4.0,
+                "z": 6.5
+              }
+            },
+            "yDistanceMultiplier": 2.0,
+            "zDistanceMultiplier": 3.0,
+            "moveSpeed": 5.0,
+            "rotationSpeed": 5.0,
+            "lockX": false,
+            "lockY": false,
+            "lockZ": false,
+            "rearMode": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "14937779626295787104": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -14.55692195892334,
+              "y": 4.588387966156006,
+              "z": -35.24209976196289
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (9)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "1877149493909158054": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100106,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "5947637339042466647": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "13335277678835587961": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 8226633440440649918
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "15315186942592109768": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 11.756028175354004,
+              "y": 2.2977654933929443,
+              "z": -47.98398971557617
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 2.0,
+              "y": 2.0,
+              "z": 2.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "item-coin-bronze (10)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "1117537253480382955": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 100104,
+            "materials": [
+              100207
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "8597123404226243505": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 0.2639999985694885,
+                "y": 0.2639999985694885,
+                "z": 0.10000000149011612
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              }
+            },
+            "isTrigger": true,
+            "generateCollisionEvents": true
+          },
+          "Enabled": true
+        },
+        "5156799672566202552": {
+          "Type": "Coin",
+          "Values": {
+            "rotateSpeed": 200.0,
+            "particlesPrefab": 15765770994265380034
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "5706130259201179119": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -4.561035633087158,
+              "y": 0.582553505897522,
+              "z": -54.66044235229492
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (9)",
+        "active": true,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "4978893362489502346": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100107,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 50.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 2.0,
+            "lifeTimeMin": 1.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 100.0,
+            "maxParticles": 200.0,
+            "randomRotation": true,
+            "isEmitting": true,
+            "simulationRate": 2,
+            "worldSimulation": true,
+            "loop": true,
+            "play": false,
+            "useLifeTime": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "11558396498205066023": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 21.78582763671875,
+              "y": 0.7027710676193237,
+              "z": -27.845504760742188
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Particle System (10)",
+        "active": false,
+        "isStatic": false
+      },
+      "Children": [],
+      "Components": {
+        "4330182132386874999": {
+          "Type": "ParticleSystem",
+          "Values": {
+            "mesh": 100107,
+            "material": 100207,
+            "texture": 100206,
+            "color": {
+              "Values": {
+                "rgba": {
+                  "Values": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  }
+                }
+              }
+            },
+            "isBillboard": false,
+            "emitterShape": 1,
+            "coneAngle": 50.0,
+            "boxSize": {
+              "Values": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "direction": {
+              "Values": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 0.0
+              }
+            },
+            "speedMin": 1.0,
+            "speedMax": 2.0,
+            "lifeTimeMin": 1.0,
+            "lifeTimeMax": 2.0,
+            "spawnRate": 100.0,
+            "maxParticles": 200.0,
+            "randomRotation": false,
+            "isEmitting": true,
+            "simulationRate": 2,
+            "worldSimulation": false,
+            "loop": true,
+            "play": false,
+            "useLifeTime": false
           },
           "Enabled": true
         }

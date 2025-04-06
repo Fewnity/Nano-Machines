@@ -1,0 +1,100 @@
+{
+"Values": {
+"data": {
+"9333744708935532262": {
+"Children": [],
+"Components": {
+"13718384399894807921": {
+"Enabled": true,
+"Type": "ParticleSystem",
+"Values": {
+"boxSize": {
+"Values": {
+"x": 1.0,
+"y": 1.0,
+"z": 1.0
+}
+},
+"color": {
+"Values": {
+"rgba": {
+"Values": {
+"a": 1.0,
+"b": 0.3797941207885742,
+"g": 1.0,
+"r": 0.0
+}
+}
+}
+},
+"coneAngle": 220.0,
+"direction": {
+"Values": {
+"x": 0.0,
+"y": 1.0,
+"z": 0.0
+}
+},
+"emitterShape": 1,
+"isBillboard": true,
+"isEmitting": true,
+"lifeTimeMax": 0.5,
+"lifeTimeMin": 0.20000000298023224,
+"loop": false,
+"material": 17727951481398095679,
+"maxParticles": 20.0,
+"mesh": 0,
+"play": false,
+"randomRotation": true,
+"simulationRate": 2,
+"spawnRate": 10.0,
+"speedMax": 3.0,
+"speedMin": 3.0,
+"texture": 100408,
+"worldSimulation": true
+}
+},
+"9786885435342345369": {
+"Enabled": true,
+"Type": "TimedDestroy",
+"Values": {
+"cooldown": 5.0
+}
+}
+},
+"Transform": {
+"Values": {
+"localPosition": {
+"Values": {
+"x": 3.817507028579712,
+"y": 1.1191295385360718,
+"z": -33.905723571777344
+}
+},
+"localRotationQuaternion": {
+"Values": {
+"w": 1.0,
+"x": 0.0,
+"y": 0.0,
+"z": 0.0
+}
+},
+"localScale": {
+"Values": {
+"x": 1.0,
+"y": 1.0,
+"z": 1.0
+}
+}
+}
+},
+"Values": {
+"active": true,
+"isStatic": false,
+"name": "CheckPoint Particle System"
+}
+}
+}
+},
+"Version": 1
+}

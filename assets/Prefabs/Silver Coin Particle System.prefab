@@ -1,0 +1,100 @@
+{
+"Values": {
+"data": {
+"11258912282690866357": {
+"Children": [],
+"Components": {
+"12474259088694303256": {
+"Enabled": true,
+"Type": "ParticleSystem",
+"Values": {
+"boxSize": {
+"Values": {
+"x": 1.0,
+"y": 1.0,
+"z": 1.0
+}
+},
+"color": {
+"Values": {
+"rgba": {
+"Values": {
+"a": 1.0,
+"b": 1.0,
+"g": 1.0,
+"r": 1.0
+}
+}
+}
+},
+"coneAngle": 200.0,
+"direction": {
+"Values": {
+"x": 0.0,
+"y": 1.0,
+"z": 0.0
+}
+},
+"emitterShape": 1,
+"isBillboard": false,
+"isEmitting": true,
+"lifeTimeMax": 0.5,
+"lifeTimeMin": 0.20000000298023224,
+"loop": false,
+"material": 100207,
+"maxParticles": 20.0,
+"mesh": 100106,
+"play": false,
+"randomRotation": true,
+"simulationRate": 2,
+"spawnRate": 10.0,
+"speedMax": 3.0,
+"speedMin": 3.0,
+"texture": 100206,
+"worldSimulation": true
+}
+},
+"7810187012944094463": {
+"Enabled": true,
+"Type": "TimedDestroy",
+"Values": {
+"cooldown": 5.0
+}
+}
+},
+"Transform": {
+"Values": {
+"localPosition": {
+"Values": {
+"x": 1.50853431224823,
+"y": 1.3581689596176147,
+"z": -38.51605987548828
+}
+},
+"localRotationQuaternion": {
+"Values": {
+"w": 1.0,
+"x": 0.0,
+"y": 0.0,
+"z": 0.0
+}
+},
+"localScale": {
+"Values": {
+"x": 1.0,
+"y": 1.0,
+"z": 1.0
+}
+}
+}
+},
+"Values": {
+"active": true,
+"isStatic": false,
+"name": "Silver Coin Particle System"
+}
+}
+}
+},
+"Version": 1
+}

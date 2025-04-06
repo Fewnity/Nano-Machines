@@ -3,6 +3,7 @@
 #include <engine/component.h>
 
 class RigidBody;
+class ParticleSystem;
 
 class Car : public Component
 {
@@ -19,6 +20,7 @@ public:
     
 private:
     std::weak_ptr<GameObject> carGO;
+    std::weak_ptr<ParticleSystem> particleSystem;
     std::weak_ptr<RigidBody> rigidBody;
     float yTorque = 0;
     float yTorqueAdd = 0;
