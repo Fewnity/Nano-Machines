@@ -3,7 +3,7 @@
 "MetaVersion": 1,
 "Standalone": {
 "Values": {
-"resolution": 64,
+"resolution": 1024,
 "useMipMap": false,
 "mipmaplevelCount": 0,
 "filter": 0,
@@ -40,7 +40,8 @@
 "mipmaplevelCount": 0,
 "filter": 0,
 "wrapMode": 3,
-"pixelPerUnit": 100
+"pixelPerUnit": 100,
+"type": 2
 }
 }
 }
