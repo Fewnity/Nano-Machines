@@ -7,11 +7,12 @@ class Prefab;
 class TimedDestroy : public Component
 {
 public:
-	void Start() override;
-	void Update() override;
-	ReflectiveData GetReflectiveData() override;
 	float cooldown = 10;
 
 private:
+	void Start() override;
+	void Update() override;
+	ReflectiveData GetReflectiveData() override;
+	
 	float timer = 0;
 };

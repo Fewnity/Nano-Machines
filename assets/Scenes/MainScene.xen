@@ -102,212 +102,18 @@
       100207,
       100342,
       100343,
-      100345,
-      100408,
       100521,
       100522,
       100524,
-      100525,
       8226633440440649918,
       12006233561389094657,
-      15765770994265380034,
-      17727951481398095679
+      15765770994265380034
     ]
   }
 }
 {
   "Version": 1,
   "GameObjects": {
-    "1": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -2.1291000843048096,
-              "y": 4.851099967956543,
-              "z": -25.541099548339844
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": -1.3144268784515134e-08,
-              "y": -0.9537169337272644,
-              "z": 0.30070582032203674,
-              "w": -4.1688291929631305e-08
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Camera",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "2": {
-          "Type": "Camera",
-          "Values": {
-            "projectionType": 0,
-            "fov": 55.0,
-            "projectionSize": 5.0,
-            "nearClippingPlane": 1.0,
-            "farClippingPlane": 100.0,
-            "useMultisampling": true
-          },
-          "Enabled": true
-        },
-        "250": {
-          "Type": "CameraFollow",
-          "Values": {
-            "cameraTarget": 206,
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 4.0,
-                "z": 6.5
-              }
-            },
-            "yDistanceMultiplier": 3.0,
-            "zDistanceMultiplier": 3.0,
-            "moveSpeed": 10.0,
-            "rotationSpeed": 5.0,
-            "lockX": false,
-            "lockY": false,
-            "lockZ": false,
-            "rearMode": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "3": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 0.0,
-              "y": 2.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Sun",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "4": {
-          "Type": "Light",
-          "Values": {
-            "type": 0,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "intensity": 0.5,
-            "range": 10.0,
-            "spotAngle": 30.0,
-            "spotSmoothness": 0.0,
-            "oldConsoleCompatibility": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "5": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Ambient Light",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "6": {
-          "Type": "Light",
-          "Values": {
-            "type": 3,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "intensity": 0.5,
-            "range": 10.0,
-            "spotAngle": 30.0,
-            "spotSmoothness": 0.0,
-            "oldConsoleCompatibility": true
-          },
-          "Enabled": true
-        }
-      }
-    },
     "87": {
       "Transform": {
         "Values": {
@@ -337,8 +143,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-hill-end",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -384,8 +189,7 @@
       },
       "Values": {
         "name": "GameObject",
-        "active": false,
-        "isStatic": false
+        "active": false
       },
       "Children": [
         7,
@@ -515,8 +319,7 @@
       },
       "Values": {
         "name": "vehicle-suv",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -566,8 +369,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-skew-left",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -613,8 +415,7 @@
       },
       "Values": {
         "name": "gate-finish",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -660,8 +461,7 @@
       },
       "Values": {
         "name": "gate",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -707,8 +507,7 @@
       },
       "Values": {
         "name": "item-banana",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -754,8 +553,7 @@
       },
       "Values": {
         "name": "item-box",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -801,8 +599,7 @@
       },
       "Values": {
         "name": "item-coin-bronze",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -848,8 +645,7 @@
       },
       "Values": {
         "name": "item-coin-gold",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -895,8 +691,7 @@
       },
       "Values": {
         "name": "item-coin-silver",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -942,8 +737,7 @@
       },
       "Values": {
         "name": "smoke",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -989,8 +783,7 @@
       },
       "Values": {
         "name": "supports-clamp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1036,8 +829,7 @@
       },
       "Values": {
         "name": "supports-diagonal",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1083,8 +875,7 @@
       },
       "Values": {
         "name": "supports-wide-clamp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1130,8 +921,7 @@
       },
       "Values": {
         "name": "supports-wide-diagonal",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1177,8 +967,7 @@
       },
       "Values": {
         "name": "supports-wide",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1224,8 +1013,7 @@
       },
       "Values": {
         "name": "supports",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1271,8 +1059,7 @@
       },
       "Values": {
         "name": "track-narrow-cap-back",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1318,8 +1105,7 @@
       },
       "Values": {
         "name": "track-narrow-cap-front",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1365,8 +1151,7 @@
       },
       "Values": {
         "name": "track-narrow-corner-large-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1412,8 +1197,7 @@
       },
       "Values": {
         "name": "track-narrow-corner-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1459,8 +1243,7 @@
       },
       "Values": {
         "name": "track-narrow-corner-small-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1506,8 +1289,7 @@
       },
       "Values": {
         "name": "track-narrow-corner-small",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1553,8 +1335,7 @@
       },
       "Values": {
         "name": "track-narrow-curve",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1600,8 +1381,7 @@
       },
       "Values": {
         "name": "track-narrow-straight-bend-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1647,8 +1427,7 @@
       },
       "Values": {
         "name": "track-narrow-straight",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1694,8 +1473,7 @@
       },
       "Values": {
         "name": "track-narrow",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1741,8 +1519,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-cap-back",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1788,8 +1565,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-cap-front",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1835,8 +1611,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-corner-large-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1882,8 +1657,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-corner-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1929,8 +1703,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-corner-small-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -1976,8 +1749,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-corner-small",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2023,8 +1795,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-curve",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2070,8 +1841,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-bend-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2117,8 +1887,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-bend",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2164,8 +1933,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-bump-down",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2211,8 +1979,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-bump-up",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2258,8 +2025,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-hill-beginning",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2305,8 +2071,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-hill-complete-half",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2352,8 +2117,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-hill-complete",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2399,8 +2163,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-skew-left-side",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2446,8 +2209,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-skew-right-side",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2493,8 +2255,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight-skew-right",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2540,8 +2301,7 @@
       },
       "Values": {
         "name": "track-striped-narrow-straight",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2587,8 +2347,7 @@
       },
       "Values": {
         "name": "track-striped-narrow",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2634,8 +2393,7 @@
       },
       "Values": {
         "name": "track-striped-wide-cap-back",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2681,8 +2439,7 @@
       },
       "Values": {
         "name": "track-striped-wide-cap-front",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2728,8 +2485,7 @@
       },
       "Values": {
         "name": "track-striped-wide-corner-large-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2775,8 +2531,7 @@
       },
       "Values": {
         "name": "track-striped-wide-corner-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2822,8 +2577,7 @@
       },
       "Values": {
         "name": "track-striped-wide-corner-small-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2869,8 +2623,7 @@
       },
       "Values": {
         "name": "track-striped-wide-corner-small",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2916,8 +2669,7 @@
       },
       "Values": {
         "name": "track-striped-wide-curve",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -2963,8 +2715,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-bend-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3010,8 +2761,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-bend",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3057,8 +2807,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-bump-down",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3104,8 +2853,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-bump-up",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3151,8 +2899,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-hill-beginning",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3198,8 +2945,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-hill-complete-half",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3245,8 +2991,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-hill-complete",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3292,8 +3037,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-hill-end",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3339,8 +3083,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-skew-left-side",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3386,8 +3129,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-skew-left",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3433,8 +3175,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-skew-right-side",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3480,8 +3221,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight-skew-right",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3527,8 +3267,7 @@
       },
       "Values": {
         "name": "track-striped-wide-straight",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3574,8 +3313,7 @@
       },
       "Values": {
         "name": "track-striped-wide",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3621,8 +3359,7 @@
       },
       "Values": {
         "name": "track-wide-cap-back",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3668,8 +3405,7 @@
       },
       "Values": {
         "name": "track-wide-cap-front",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3715,8 +3451,7 @@
       },
       "Values": {
         "name": "track-wide-corner-large-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3762,8 +3497,7 @@
       },
       "Values": {
         "name": "track-wide-corner-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3809,8 +3543,7 @@
       },
       "Values": {
         "name": "track-wide-corner-small-ramp",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3856,8 +3589,7 @@
       },
       "Values": {
         "name": "track-wide-corner-small",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3903,8 +3635,7 @@
       },
       "Values": {
         "name": "track-wide-curve",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3950,8 +3681,7 @@
       },
       "Values": {
         "name": "track-wide-straight-bend-large",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -3997,8 +3727,7 @@
       },
       "Values": {
         "name": "track-wide-straight-bend",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4044,8 +3773,7 @@
       },
       "Values": {
         "name": "track-wide-straight-bump-down",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4091,8 +3819,7 @@
       },
       "Values": {
         "name": "track-wide-straight-bump-up",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4138,8 +3865,7 @@
       },
       "Values": {
         "name": "track-wide-straight-hill-beginning",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4185,8 +3911,7 @@
       },
       "Values": {
         "name": "track-wide-straight-hill-complete-half",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4232,8 +3957,7 @@
       },
       "Values": {
         "name": "track-wide-straight-hill-complete",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4279,8 +4003,7 @@
       },
       "Values": {
         "name": "track-wide-straight-hill-end",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4326,8 +4049,7 @@
       },
       "Values": {
         "name": "track-wide-straight-skew-left-side",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4373,8 +4095,7 @@
       },
       "Values": {
         "name": "track-wide-straight-skew-left",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4420,8 +4141,7 @@
       },
       "Values": {
         "name": "track-wide-straight-skew-right-side",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4467,8 +4187,7 @@
       },
       "Values": {
         "name": "track-wide-straight-skew-right",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4514,8 +4233,7 @@
       },
       "Values": {
         "name": "track-wide-straight",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4561,8 +4279,7 @@
       },
       "Values": {
         "name": "track-wide",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4608,8 +4325,7 @@
       },
       "Values": {
         "name": "vehicle-drag-racer",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4659,8 +4375,7 @@
       },
       "Values": {
         "name": "vehicle-monster-truck",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4710,8 +4425,7 @@
       },
       "Values": {
         "name": "vehicle-racer-low",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4761,8 +4475,7 @@
       },
       "Values": {
         "name": "vehicle-racer",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4812,8 +4525,7 @@
       },
       "Values": {
         "name": "vehicle-speedster",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4863,8 +4575,7 @@
       },
       "Values": {
         "name": "vehicle-truck",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4914,8 +4625,7 @@
       },
       "Values": {
         "name": "vehicle-vintage-racer",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -4965,8 +4675,7 @@
       },
       "Values": {
         "name": "vehicle-racer-low (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5016,8 +4725,7 @@
       },
       "Values": {
         "name": "Cube",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5085,8 +4793,7 @@
       },
       "Values": {
         "name": "gate",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         2594922095652116099
@@ -5178,8 +4885,7 @@
       },
       "Values": {
         "name": "Car",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         213
@@ -5237,8 +4943,6 @@
             "force": 6.0,
             "steeringForce": 2.0,
             "carGO": 213,
-            "yTorqueAdd": 0.0,
-            "yTorqueAddSpeed": 10.0,
             "jumpForce": 6.0
           },
           "Enabled": true
@@ -5274,8 +4978,7 @@
       },
       "Values": {
         "name": "Cube (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5343,8 +5046,7 @@
       },
       "Values": {
         "name": "GameObject",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         201,
@@ -5380,8 +5082,7 @@
       },
       "Values": {
         "name": "Cube (2)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5449,8 +5150,7 @@
       },
       "Values": {
         "name": "tile_slantHigh",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         236
@@ -5498,8 +5198,7 @@
       },
       "Values": {
         "name": "tile_slant",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         238
@@ -5547,8 +5246,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5624,8 +5322,7 @@
       },
       "Values": {
         "name": "GameObject",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5682,8 +5379,7 @@
       },
       "Values": {
         "name": "GameObject (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5740,8 +5436,7 @@
       },
       "Values": {
         "name": "gate (2)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5831,8 +5526,7 @@
       },
       "Values": {
         "name": "Cube (3)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5900,8 +5594,7 @@
       },
       "Values": {
         "name": "Cube (4)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -5969,8 +5662,7 @@
       },
       "Values": {
         "name": "Cube (5)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6038,8 +5730,7 @@
       },
       "Values": {
         "name": "tile_slantHigh (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         268
@@ -6087,8 +5778,7 @@
       },
       "Values": {
         "name": "GameObject",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6145,8 +5835,7 @@
       },
       "Values": {
         "name": "Cube (6)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6214,8 +5903,7 @@
       },
       "Values": {
         "name": "Cube (7)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6283,8 +5971,7 @@
       },
       "Values": {
         "name": "Cube (8)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6352,8 +6039,7 @@
       },
       "Values": {
         "name": "Cube (9)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6392,190 +6078,6 @@
         }
       }
     },
-    "282": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 1.5891395807266235,
-              "y": 0.8500000238418579,
-              "z": -35.05796813964844
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": -1.0,
-              "z": -0.0,
-              "w": -4.371138828673793e-08
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Car (1)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        286
-      ],
-      "Components": {
-        "283": {
-          "Type": "SphereCollider",
-          "Values": {
-            "size": 0.699999988079071,
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        },
-        "284": {
-          "Type": "RigidBody",
-          "Values": {
-            "isStatic": false,
-            "gravityMultiplier": 1.0,
-            "drag": 0.10000000149011612,
-            "angularDrag": 0.8999999761581421,
-            "bounce": 0.0,
-            "mass": 1.0,
-            "friction": 2.0,
-            "lockedMovementAxis": {
-              "Values": {
-                "x": false,
-                "y": false,
-                "z": false
-              }
-            },
-            "lockedRotationAxis": {
-              "Values": {
-                "x": false,
-                "y": false,
-                "z": false
-              }
-            }
-          },
-          "Enabled": true
-        },
-        "285": {
-          "Type": "Car",
-          "Values": {
-            "playerIndex": 1,
-            "rigidBody": 284,
-            "particleSystem": 5425703509544827222,
-            "force": 6.0,
-            "steeringForce": 2.0,
-            "carGO": 286,
-            "yTorqueAdd": 0.0,
-            "yTorqueAddSpeed": 10.0,
-            "jumpForce": 6.0
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "286": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "GameObject",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [
-        287,
-        17290691635424356817
-      ]
-    },
-    "287": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 7.152557373046875e-07,
-              "y": -0.33306825160980225,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 1.0,
-              "z": 0.0,
-              "w": -4.371138828673793e-08
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "vehicle-racer-low (1)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "288": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 100200,
-            "materials": [
-              100207,
-              100207,
-              100207,
-              100207,
-              100207
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        }
-      }
-    },
     "289": {
       "Transform": {
         "Values": {
@@ -6605,8 +6107,7 @@
       },
       "Values": {
         "name": "Walls",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         290,
@@ -6658,8 +6159,7 @@
       },
       "Values": {
         "name": "Cube (10)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6705,8 +6205,7 @@
       },
       "Values": {
         "name": "Cube (11)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6752,8 +6251,7 @@
       },
       "Values": {
         "name": "Cube (12)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6799,8 +6297,7 @@
       },
       "Values": {
         "name": "Cube (13)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6846,8 +6343,7 @@
       },
       "Values": {
         "name": "Cube (14)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6893,8 +6389,7 @@
       },
       "Values": {
         "name": "Cube (15)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6940,8 +6435,7 @@
       },
       "Values": {
         "name": "Cube (16)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -6987,8 +6481,7 @@
       },
       "Values": {
         "name": "Cube (17)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7034,8 +6527,7 @@
       },
       "Values": {
         "name": "Cube (18)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7081,8 +6573,7 @@
       },
       "Values": {
         "name": "Cube (19)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7128,8 +6619,7 @@
       },
       "Values": {
         "name": "Cube (20)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7175,8 +6665,7 @@
       },
       "Values": {
         "name": "Cube (21)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7222,8 +6711,7 @@
       },
       "Values": {
         "name": "Cube (22)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7269,8 +6757,7 @@
       },
       "Values": {
         "name": "Coll",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7327,8 +6814,7 @@
       },
       "Values": {
         "name": "Coll",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7385,8 +6871,7 @@
       },
       "Values": {
         "name": "Coll",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7443,8 +6928,7 @@
       },
       "Values": {
         "name": "Coll",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7501,8 +6985,7 @@
       },
       "Values": {
         "name": "Coll (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -7559,8 +7042,7 @@
       },
       "Values": {
         "name": "TestLevel",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         289,
@@ -7597,8 +7079,7 @@
       },
       "Values": {
         "name": "Ground",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         203
@@ -7633,8 +7114,7 @@
       },
       "Values": {
         "name": "Objects",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         279,
@@ -7711,1243 +7191,9 @@
       },
       "Values": {
         "name": "Tracks",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": []
-    },
-    "344": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 15.0,
-              "y": 1.0,
-              "z": 10.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "345": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100525
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "346": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "347": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 5.794709068140946e-07,
-              "y": 7.547785758972168,
-              "z": -33.369422912597656
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": -2.1855694143368964e-08,
-              "y": -0.8660253882408142,
-              "z": 0.5,
-              "w": -3.785517321830412e-08
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Camera (1)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "348": {
-          "Type": "Camera",
-          "Values": {
-            "projectionType": 0,
-            "fov": 55.0,
-            "projectionSize": 5.0,
-            "nearClippingPlane": 2.0,
-            "farClippingPlane": 50.0,
-            "useMultisampling": true
-          },
-          "Enabled": true
-        },
-        "349": {
-          "Type": "CameraFollow",
-          "Values": {
-            "cameraTarget": 206,
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 4.0,
-                "z": 6.0
-              }
-            },
-            "yDistanceMultiplier": 3.0,
-            "zDistanceMultiplier": 3.0,
-            "moveSpeed": 5.0,
-            "rotationSpeed": 5.0,
-            "lockX": false,
-            "lockY": false,
-            "lockZ": false,
-            "rearMode": true
-          },
-          "Enabled": false
-        }
-      }
-    },
-    "350": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Floor",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [
-        351,
-        355,
-        365,
-        375,
-        379,
-        382,
-        385,
-        388
-      ]
-    },
-    "351": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Floor0",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [
-        344
-      ]
-    },
-    "352": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": 6.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 15.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (23)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "353": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100525
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "354": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "355": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Floor1",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [
-        352,
-        356,
-        359,
-        362
-      ],
-      "Components": {
-        "392": {
-          "Type": "RigidBody",
-          "Values": {
-            "isStatic": true,
-            "gravityMultiplier": 1.0,
-            "drag": 0.10000000149011612,
-            "angularDrag": 0.10000000149011612,
-            "bounce": 0.0,
-            "mass": 1.0,
-            "friction": 0.10000000149011612,
-            "lockedMovementAxis": {
-              "Values": {
-                "x": false,
-                "y": false,
-                "z": false
-              }
-            },
-            "lockedRotationAxis": {
-              "Values": {
-                "x": false,
-                "y": false,
-                "z": false
-              }
-            }
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "356": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": -6.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 15.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (24)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "357": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100525
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "358": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "359": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -8.5,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 14.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (25)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "360": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100525
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "361": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "362": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 8.5,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 14.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (26)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "363": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100525
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "364": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "365": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Floor2",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [
-        366,
-        369
-      ],
-      "Components": {
-        "391": {
-          "Type": "RigidBody",
-          "Values": {
-            "isStatic": true,
-            "gravityMultiplier": 1.0,
-            "drag": 0.10000000149011612,
-            "angularDrag": 0.10000000149011612,
-            "bounce": 0.0,
-            "mass": 1.0,
-            "friction": 0.10000000149011612,
-            "lockedMovementAxis": {
-              "Values": {
-                "x": false,
-                "y": false,
-                "z": false
-              }
-            },
-            "lockedRotationAxis": {
-              "Values": {
-                "x": false,
-                "y": false,
-                "z": false
-              }
-            }
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "366": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": 8.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 19.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (27)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "367": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100525
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "368": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "369": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.0,
-              "z": -8.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 19.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (28)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "370": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100525
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "371": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "375": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 1.7663999795913696,
-              "y": 0.3700000047683716,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": -0.1736481934785843,
-              "w": 0.9848077297210693
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (29)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "376": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100521
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "377": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "378": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": -40.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Arenas1",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        350
-      ]
-    },
-    "379": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -1.7663718461990356,
-              "y": 0.3700000047683716,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.1736481934785843,
-              "w": 0.9848077297210693
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (30)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "380": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100521
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "381": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "382": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.6814072728157043,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (31)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "383": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100521
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "384": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "385": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.3700000047683716,
-              "z": 1.7663999795913696
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.12278782576322556,
-              "y": -0.6963642239570618,
-              "z": -0.12278782576322556,
-              "w": 0.6963642239570618
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (32)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "386": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100521
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "387": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "388": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.3700000047683716,
-              "z": -1.7663999795913696
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": -0.12278782576322556,
-              "y": 0.6963642239570618,
-              "z": -0.12278782576322556,
-              "w": 0.6963642239570618
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube (33)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "389": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100521
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "390": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "10592398337741133604": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 1.6273525953292847,
-              "y": 1.4806119203567505,
-              "z": -38.469146728515625
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "5387296012059665979": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 200.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 2.0,
-            "speedMax": 5.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 100.0,
-            "maxParticles": 200.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
     },
     "4979242425518409125": {
       "Transform": {
@@ -8978,8 +7224,7 @@
       },
       "Values": {
         "name": "Particle System (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -9035,1088 +7280,6 @@
         }
       }
     },
-    "9043878950965424655": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 1.6273525953292847,
-              "y": 1.4806119203567505,
-              "z": -38.469146728515625
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (2)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "2208485978597733602": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 200.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 1.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 10.0,
-            "maxParticles": 20.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "5460068564315859824": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 4.882238388061523,
-              "y": 1.0,
-              "z": -38.469146728515625
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 2.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (3)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        14204090870998443699
-      ],
-      "Components": {
-        "16898961473895903954": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 1.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 1.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 5.0,
-            "maxParticles": 10.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "14204090870998443699": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.4632594585418701,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 0.10000000149011612,
-              "y": 1.0,
-              "z": 0.10000000149011612
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "GameObject",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "750170219185787627": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100345
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "13429865584409726219": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 3.854562282562256,
-              "y": 1.0,
-              "z": -38.469146728515625
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.3826834559440613,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 0.9238795042037964
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 1.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (4)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        3659330207747497879
-      ],
-      "Components": {
-        "11762076478629182225": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 1.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 1.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 5.0,
-            "maxParticles": 10.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "3659330207747497879": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.4632594585418701,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 0.10000000149011612,
-              "y": 1.0,
-              "z": 0.10000000149011612
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "GameObject",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "10465320574671337957": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100345
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "6509925787125832603": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 2.4733612537384033,
-              "y": 1.0,
-              "z": -38.469146728515625
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.3826834559440613,
-              "z": 0.0,
-              "w": 0.9238795042037964
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 2.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (5)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        15528840523186214695
-      ],
-      "Components": {
-        "2942296950673118209": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 1.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 1.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 5.0,
-            "maxParticles": 10.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "15528840523186214695": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.4632594585418701,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 0.10000000149011612,
-              "y": 1.0,
-              "z": 0.10000000149011612
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "GameObject",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "9684057726125650074": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100345
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "5171217682560900966": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 1.387458086013794,
-              "y": 1.0,
-              "z": -38.469146728515625
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.3826834559440613,
-              "w": 0.9238795042037964
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 2.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (6)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        11637842397091191319
-      ],
-      "Components": {
-        "18162898243313557837": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 1.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 1.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 5.0,
-            "maxParticles": 10.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "11637842397091191319": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.4632594585418701,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 0.10000000149011612,
-              "y": 1.0,
-              "z": 0.10000000149011612
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "GameObject",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "6269215685133649644": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100345
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "37430782492885292": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -1.0405619144439697,
-              "y": 1.0,
-              "z": -38.469146728515625
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.3097265362739563,
-              "y": 0.21011024713516235,
-              "z": 0.4112739861011505,
-              "w": 0.831129789352417
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 2.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (7)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        12108677018646667182
-      ],
-      "Components": {
-        "2330429486492275283": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 1.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 1.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 5.0,
-            "maxParticles": 10.0,
-            "randomRotation": false,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "12108677018646667182": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.4632594585418701,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 0.10000000149011612,
-              "y": 1.0,
-              "z": 0.10000000149011612
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "GameObject",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "6404830556222591628": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100345
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "4021844843787961362": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -4.723832130432129,
-              "y": 1.0,
-              "z": -37.24809646606445
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.3535534143447876,
-              "y": 0.3535534143447876,
-              "z": -0.14644663035869598,
-              "w": 0.8535533547401428
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 2.0,
-              "y": 2.0,
-              "z": 2.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (8)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [
-        11277999405352344884
-      ],
-      "Components": {
-        "16621407387668132032": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 1.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 1.0,
-            "lifeTimeMin": 2.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 5.0,
-            "maxParticles": 10.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 1,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "11277999405352344884": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.4632594585418701,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 0.10000000149011612,
-              "y": 1.0,
-              "z": 0.10000000149011612
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "GameObject",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "17607551099454879665": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 2,
-            "materials": [
-              100345
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "1808645990360691316": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 1.50853431224823,
-              "y": 1.3581689596176147,
-              "z": -38.51605987548828
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Coin Particle System",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "2920456533630551276": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100104,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 200.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 3.0,
-            "speedMax": 3.0,
-            "lifeTimeMin": 0.20000000298023224,
-            "lifeTimeMax": 0.5,
-            "spawnRate": 10.0,
-            "maxParticles": 20.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 2,
-            "worldSimulation": true,
-            "loop": false,
-            "play": false
-          },
-          "Enabled": true
-        },
-        "5325715301635102367": {
-          "Type": "TimedDestroy",
-          "Values": {
-            "cooldown": 5.0
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "9333744708935532262": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 3.817507028579712,
-              "y": 1.1191295385360718,
-              "z": -33.905723571777344
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "CheckPoint Particle System",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "13718384399894807921": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 0,
-            "material": 17727951481398095679,
-            "texture": 100408,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 0.0,
-                    "g": 1.0,
-                    "b": 0.3797941207885742,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": true,
-            "emitterShape": 1,
-            "coneAngle": 220.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 3.0,
-            "speedMax": 3.0,
-            "lifeTimeMin": 0.20000000298023224,
-            "lifeTimeMax": 0.5,
-            "spawnRate": 10.0,
-            "maxParticles": 20.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 2,
-            "worldSimulation": true,
-            "loop": false,
-            "play": false
-          },
-          "Enabled": true
-        },
-        "9786885435342345369": {
-          "Type": "TimedDestroy",
-          "Values": {
-            "cooldown": 5.0
-          },
-          "Enabled": true
-        }
-      }
-    },
     "2594922095652116099": {
       "Transform": {
         "Values": {
@@ -10146,8 +7309,7 @@
       },
       "Values": {
         "name": "Trigger",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10211,8 +7373,7 @@
       },
       "Values": {
         "name": "gate (3)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         2591088766305717021
@@ -10304,8 +7465,7 @@
       },
       "Values": {
         "name": "Trigger",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10369,8 +7529,7 @@
       },
       "Values": {
         "name": "gate (4)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         13323363364126368579
@@ -10462,8 +7621,7 @@
       },
       "Values": {
         "name": "Trigger",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10527,8 +7685,7 @@
       },
       "Values": {
         "name": "gate (5)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         18097956355941633016
@@ -10620,8 +7777,7 @@
       },
       "Values": {
         "name": "Trigger",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10685,8 +7841,7 @@
       },
       "Values": {
         "name": "gate (7)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         12546672126936795925
@@ -10778,8 +7933,7 @@
       },
       "Values": {
         "name": "Trigger",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10843,8 +7997,7 @@
       },
       "Values": {
         "name": "track-wide-straight (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10890,8 +8043,7 @@
       },
       "Values": {
         "name": "track-wide-corner-large (1)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10937,8 +8089,7 @@
       },
       "Values": {
         "name": "track-wide-corner-large (2)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -10984,8 +8135,7 @@
       },
       "Values": {
         "name": "track-wide-straight (2)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11031,8 +8181,7 @@
       },
       "Values": {
         "name": "track-wide-straight (3)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11078,8 +8227,7 @@
       },
       "Values": {
         "name": "track-wide-straight (4)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11125,8 +8273,7 @@
       },
       "Values": {
         "name": "track-wide-straight (5)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11172,8 +8319,7 @@
       },
       "Values": {
         "name": "track-wide-straight (6)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11219,8 +8365,7 @@
       },
       "Values": {
         "name": "track-wide-corner-large (3)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11266,8 +8411,7 @@
       },
       "Values": {
         "name": "track-wide-straight (7)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11313,8 +8457,7 @@
       },
       "Values": {
         "name": "track-wide-corner-large (4)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11360,8 +8503,7 @@
       },
       "Values": {
         "name": "track-wide-straight (8)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11407,8 +8549,7 @@
       },
       "Values": {
         "name": "track-wide-straight (9)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11454,8 +8595,7 @@
       },
       "Values": {
         "name": "track-wide-straight (10)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11501,8 +8641,7 @@
       },
       "Values": {
         "name": "track-wide-straight (11)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11548,8 +8687,7 @@
       },
       "Values": {
         "name": "track-wide-straight (12)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11595,8 +8733,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (3)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11643,99 +8780,6 @@
         }
       }
     },
-    "11258912282690866357": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 1.50853431224823,
-              "y": 1.3581689596176147,
-              "z": -38.51605987548828
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Silver Coin Particle System",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "12474259088694303256": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100106,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 200.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 3.0,
-            "speedMax": 3.0,
-            "lifeTimeMin": 0.20000000298023224,
-            "lifeTimeMax": 0.5,
-            "spawnRate": 10.0,
-            "maxParticles": 20.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 2,
-            "worldSimulation": true,
-            "loop": false,
-            "play": false
-          },
-          "Enabled": true
-        },
-        "7810187012944094463": {
-          "Type": "TimedDestroy",
-          "Values": {
-            "cooldown": 5.0
-          },
-          "Enabled": true
-        }
-      }
-    },
     "6317689883127617384": {
       "Transform": {
         "Values": {
@@ -11765,8 +8809,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (4)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11842,8 +8885,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (5)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11919,8 +8961,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (6)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -11996,8 +9037,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (7)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -12073,8 +9113,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (8)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -12121,76 +9160,6 @@
         }
       }
     },
-    "13360837504658193220": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -2.1291000843048096,
-              "y": 4.851099967956543,
-              "z": -25.541099548339844
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.2164396345615387,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 0.9762960076332092
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Camera (2)",
-        "active": true,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "4645305381044083217": {
-          "Type": "Camera",
-          "Values": {
-            "projectionType": 0,
-            "fov": 55.0,
-            "projectionSize": 5.0,
-            "nearClippingPlane": 1.0,
-            "farClippingPlane": 100.0,
-            "useMultisampling": true
-          },
-          "Enabled": true
-        },
-        "13572813517154068330": {
-          "Type": "CameraFollow",
-          "Values": {
-            "cameraTarget": 213,
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": 4.0,
-                "z": 6.5
-              }
-            },
-            "yDistanceMultiplier": 2.0,
-            "zDistanceMultiplier": 3.0,
-            "moveSpeed": 5.0,
-            "rotationSpeed": 5.0,
-            "lockX": false,
-            "lockY": false,
-            "lockZ": false,
-            "rearMode": true
-          },
-          "Enabled": true
-        }
-      }
-    },
     "14937779626295787104": {
       "Transform": {
         "Values": {
@@ -12220,8 +9189,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (9)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -12297,8 +9265,7 @@
       },
       "Values": {
         "name": "item-coin-bronze (10)",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -12345,178 +9312,6 @@
         }
       }
     },
-    "5706130259201179119": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -4.561035633087158,
-              "y": 0.582553505897522,
-              "z": -54.66044235229492
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (9)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "4978893362489502346": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100107,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 50.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 2.0,
-            "lifeTimeMin": 1.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 100.0,
-            "maxParticles": 200.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 2,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
-    "11558396498205066023": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 21.78582763671875,
-              "y": 0.7027710676193237,
-              "z": -27.845504760742188
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Particle System (10)",
-        "active": false,
-        "isStatic": false
-      },
-      "Children": [],
-      "Components": {
-        "4330182132386874999": {
-          "Type": "ParticleSystem",
-          "Values": {
-            "mesh": 100107,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
-              "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 50.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
-                "z": 0.0
-              }
-            },
-            "speedMin": 1.0,
-            "speedMax": 2.0,
-            "lifeTimeMin": 1.0,
-            "lifeTimeMax": 2.0,
-            "spawnRate": 100.0,
-            "maxParticles": 200.0,
-            "randomRotation": false,
-            "isEmitting": true,
-            "simulationRate": 2,
-            "worldSimulation": false,
-            "loop": true,
-            "play": false
-          },
-          "Enabled": true
-        }
-      }
-    },
     "13439538498486877511": {
       "Transform": {
         "Values": {
@@ -12546,8 +9341,7 @@
       },
       "Values": {
         "name": "Ground",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [
         14786019214292679004
@@ -12582,8 +9376,7 @@
       },
       "Values": {
         "name": "Cube",
-        "active": true,
-        "isStatic": false
+        "active": true
       },
       "Children": [],
       "Components": {
@@ -12622,22 +9415,22 @@
         }
       }
     },
-    "17290691635424356817": {
+    "13360837504658193220": {
       "Transform": {
         "Values": {
           "localPosition": {
             "Values": {
-              "x": 0.0,
-              "y": -0.18982607126235962,
-              "z": -0.3926999866962433
+              "x": 0.42089998722076416,
+              "y": 2.8499999046325684,
+              "z": -33.129600524902344
             }
           },
           "localRotationQuaternion": {
             "Values": {
-              "x": -0.7069846987724304,
-              "y": -6.182791878472926e-08,
-              "z": -6.180657408094703e-08,
-              "w": 0.7072288393974304
+              "x": -9.460876526645734e-09,
+              "y": 0.9762960076332092,
+              "z": -0.2164396345615387,
+              "w": -4.267525355317048e-08
             }
           },
           "localScale": {
@@ -12650,59 +9443,38 @@
         }
       },
       "Values": {
-        "name": "Particle System (11)",
-        "active": true,
-        "isStatic": false
+        "name": "Camera",
+        "active": true
       },
       "Children": [],
       "Components": {
-        "5425703509544827222": {
-          "Type": "ParticleSystem",
+        "4645305381044083217": {
+          "Type": "Camera",
           "Values": {
-            "mesh": 100107,
-            "material": 100207,
-            "texture": 100206,
-            "color": {
+            "projectionType": 0,
+            "fov": 55.0,
+            "projectionSize": 5.0,
+            "nearClippingPlane": 1.0,
+            "farClippingPlane": 100.0,
+            "useMultisampling": true
+          },
+          "Enabled": true
+        },
+        "13572813517154068330": {
+          "Type": "CameraFollow",
+          "Values": {
+            "cameraTarget": 213,
+            "yDistanceMultiplier": 2.0,
+            "zDistanceMultiplier": 3.0,
+            "moveSpeed": 5.0,
+            "rotationSpeed": 5.0,
+            "cameraAngle": {
               "Values": {
-                "rgba": {
-                  "Values": {
-                    "r": 1.0,
-                    "g": 1.0,
-                    "b": 1.0,
-                    "a": 1.0
-                  }
-                }
-              }
-            },
-            "isBillboard": false,
-            "emitterShape": 1,
-            "coneAngle": 10.0,
-            "boxSize": {
-              "Values": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-              }
-            },
-            "direction": {
-              "Values": {
-                "x": 0.0,
-                "y": 1.0,
+                "x": 25.0,
+                "y": 0.0,
                 "z": 0.0
               }
-            },
-            "speedMin": 2.0,
-            "speedMax": 2.0,
-            "lifeTimeMin": 0.20000000298023224,
-            "lifeTimeMax": 0.20000000298023224,
-            "spawnRate": 20.0,
-            "maxParticles": 100.0,
-            "randomRotation": true,
-            "isEmitting": true,
-            "simulationRate": 2,
-            "worldSimulation": true,
-            "loop": true,
-            "play": false
+            }
           },
           "Enabled": true
         }

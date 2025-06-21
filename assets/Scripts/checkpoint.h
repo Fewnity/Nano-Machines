@@ -7,11 +7,10 @@ class Prefab;
 class CheckPoint : public Component
 {
 public:
-	void Update() override;
-	ReflectiveData GetReflectiveData() override;
 
 private:
 	void OnTriggerEnter(CollisionEvent eventData) override;
+	ReflectiveData GetReflectiveData() override;
 
 	std::shared_ptr<Prefab> particlesPrefab;
 	bool passed = false;

@@ -1,46 +1,21 @@
 #include "camera_follow.h"
 #include <xenity.h>
 
-CameraFollow::CameraFollow()
-{
-}
-
-void CameraFollow::Start()
-{
-	startPosition = GetTransform()->GetPosition();
-	startRotation = GetTransform()->GetRotation();
-	Debug::Print(startRotation.ToString());
-
-}
-
 void CameraFollow::Update()
 {
-	auto transform = GetTransform();
-	auto targetTransform = cameraTarget.lock()->GetTransform();
-
-	Vector3 pos = targetTransform->GetPosition();
-	//pos += offset;
-
-	if(!rearMode)
+	if(std::shared_ptr<GameObject> targetLock = cameraTarget.lock())
 	{
-		Vector3 targetPos = Vector3::Lerp(transform->GetPosition(), pos, Time::GetDeltaTime() * moveSpeed);
-		
-		if(lockX)
-			targetPos.x = startPosition.x;
-		if(lockY)
-			targetPos.y = startPosition.y;
-		if(lockZ)
-			targetPos.z = startPosition.z;
+		std::shared_ptr<Transform> transform = GetTransform();
+		std::shared_ptr<Transform> targetTransform = targetLock->GetTransform();
 	
-		transform->SetPosition(targetPos);
-	}
-	else
-	{
-		pos += targetTransform->GetBackward() * zDistanceMultiplier;
-		pos += targetTransform->GetUp() * yDistanceMultiplier;
-		Vector3 targetPos = Vector3::Lerp(transform->GetPosition(), pos, Time::GetDeltaTime() * moveSpeed);
-		transform->SetPosition(targetPos);
-		transform->SetRotation(Quaternion::Lerp(transform->GetRotation(), targetTransform->GetRotation() * startRotation, Time::GetDeltaTime() * rotationSpeed));
+		Vector3 targetPos = targetTransform->GetPosition();
+	
+		targetPos += targetTransform->GetBackward() * zDistanceMultiplier;
+		targetPos += targetTransform->GetUp() * yDistanceMultiplier;
+
+		Vector3 newPos = Vector3::Lerp(transform->GetPosition(), targetPos, Time::GetDeltaTime() * moveSpeed);
+		transform->SetPosition(newPos);
+		transform->SetRotation(Quaternion::Lerp(transform->GetRotation(), targetTransform->GetRotation() * Quaternion::Euler(cameraAngle.x, cameraAngle.y, cameraAngle.z), Time::GetDeltaTime() * rotationSpeed));
 	}
 }
 
@@ -48,14 +23,10 @@ ReflectiveData CameraFollow::GetReflectiveData()
 {
 	BEGIN_REFLECTION();
 	ADD_VARIABLE(cameraTarget, true);
-	ADD_VARIABLE(offset, true);
 	ADD_VARIABLE(yDistanceMultiplier, true);
 	ADD_VARIABLE(zDistanceMultiplier, true);
 	ADD_VARIABLE(moveSpeed, true);
 	ADD_VARIABLE(rotationSpeed, true);
-	ADD_VARIABLE(lockX, true);
-	ADD_VARIABLE(lockY, true);
-	ADD_VARIABLE(lockZ, true);
-	ADD_VARIABLE(rearMode, true);
+	ADD_VARIABLE(cameraAngle, true);
 	END_REFLECTION();
 }

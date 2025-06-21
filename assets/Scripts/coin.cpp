@@ -3,19 +3,15 @@
 
 void Coin::Update()
 {
-	auto transform = GetTransform();
+	// Rotate the coin
+	std::shared_ptr<Transform> transform = GetTransform();
 	Vector3 rot = transform->GetEulerAngles();
 	rot.y += rotateSpeed * Time::GetDeltaTime();
-	transform->SetRotation(rot);
+	transform->SetEulerAngles(rot);
 }
 
 void Coin::OnTriggerEnter(CollisionEvent eventData)
 {
-	// std::shared_ptr<Player> player = eventData.otherCollider->GetGameObject()->GetComponent<Player>();
-	// if (player)
-	// {
-	// 	player->coinCount++;
-	// }
 	GetGameObject()->SetActive(false);
 	std::shared_ptr<GameObject> spawnedParticles = Instantiate(particlesPrefab);
 	spawnedParticles->GetTransform()->SetPosition(GetGameObject()->GetTransform()->GetPosition());
