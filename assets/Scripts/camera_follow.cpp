@@ -7,7 +7,10 @@ void CameraFollow::Update()
 	{
 		std::shared_ptr<Transform> transform = GetTransform();
 		std::shared_ptr<Transform> targetTransform = targetLock->GetTransform();
-	
+		
+		// Fix if the camera update if made before the update of the car
+		targetTransform->SetEulerAngles(Vector3(0, targetTransform->GetEulerAngles().y, 0));
+
 		Vector3 targetPos = targetTransform->GetPosition();
 	
 		targetPos += targetTransform->GetBackward() * zDistanceMultiplier;
