@@ -6,31 +6,34 @@
 },
 "PS3": {
 "Values": {
-"isDebugMode": false
+"isDebugMode": false,
+"useCompilationCache": false
 }
 },
 "PSP": {
 "Values": {
-"backgroundImage": 0,
+"backgroundImage": 16017194001774769762,
 "enableProfiler": false,
-"iconImage": 0,
+"iconImage": 1111324035926399800,
 "isDebugMode": false,
-"previewImage": 0
+"previewImage": 9071606682273676250,
+"useCompilationCache": false
 }
 },
 "PsVita": {
 "Values": {
-"backgroundImage": 0,
-"enableProfiler": true,
+"backgroundImage": 103616698725322315,
+"enableProfiler": false,
 "gameId": "XENY00005",
-"iconImage": 0,
+"iconImage": 15902227923375833621,
 "isDebugMode": false,
-"startupImage": 0
+"startupImage": 14259110203942570613,
+"useCompilationCache": false
 }
 },
 "Windows": {
 "Values": {
-"icon": 0
+"icon": 7027783476667570272
 }
 }
 }
