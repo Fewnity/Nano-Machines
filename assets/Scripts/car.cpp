@@ -41,11 +41,13 @@ void Car::Update()
     {
         moveDir.x = InputSystem::GetLeftJoystick(playerIndex).x;
         // If the car is reversing, reverse the side direction
-        if(realSpeed < 0)
-        {    
-            moveDir.x = -moveDir.x;
-        }
     }
+
+    if(realSpeed < 0)
+    {    
+        moveDir.x = -moveDir.x;
+    }
+    
     if(InputSystem::GetKey(KeyCode::CROSS, playerIndex) || InputSystem::GetKey(KeyCode::UP))
     {
         moveDir.z = -1;
