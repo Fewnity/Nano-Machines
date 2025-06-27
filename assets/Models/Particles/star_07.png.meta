@@ -3,9 +3,8 @@
 "MetaVersion": 1,
 "Standalone": {
 "Values": {
-"resolution": 2048,
+"resolution": 256,
 "useMipMap": false,
-"mipmaplevelCount": 0,
 "filter": 1,
 "wrapMode": 3,
 "pixelPerUnit": 100
@@ -15,7 +14,6 @@
 "Values": {
 "resolution": 64,
 "useMipMap": false,
-"mipmaplevelCount": 0,
 "filter": 1,
 "wrapMode": 3,
 "pixelPerUnit": 100,
@@ -25,9 +23,8 @@
 },
 "PSVITA": {
 "Values": {
-"resolution": 2048,
+"resolution": 128,
 "useMipMap": false,
-"mipmaplevelCount": 0,
 "filter": 1,
 "wrapMode": 3,
 "pixelPerUnit": 100
@@ -35,9 +32,8 @@
 },
 "PS3": {
 "Values": {
-"resolution": 2048,
+"resolution": 128,
 "useMipMap": false,
-"mipmaplevelCount": 0,
 "filter": 1,
 "wrapMode": 3,
 "pixelPerUnit": 100,
