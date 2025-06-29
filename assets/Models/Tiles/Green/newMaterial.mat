@@ -1,14 +1,17 @@
 {
 "Values": {
+"shader": 11,
+"renderingMode": 0,
 "alphaCutoff": 0.5,
+"texture": 100464,
 "color": {
 "Values": {
 "rgba": {
 "Values": {
-"a": 1.0,
-"b": 1.0,
+"r": 1.0,
 "g": 1.0,
-"r": 1.0
+"b": 1.0,
+"a": 1.0
 }
 }
 }
@@ -19,12 +22,9 @@
 "y": 0.0
 }
 },
-"renderingMode": 0,
-"shader": 11,
-"texture": 100464,
 "tiling": {
 "Values": {
-"x": 20.0,
+"x": 12.5,
 "y": 20.0
 }
 },

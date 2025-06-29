@@ -1,7 +1,9 @@
 {
   "UsedFiles": {
     "Values": [
+      1,
       2,
+      17,
       27,
       100100,
       100101,
@@ -102,12 +104,14 @@
       100207,
       100342,
       100343,
+      100408,
       100521,
       100522,
       100524,
       8226633440440649918,
       12006233561389094657,
-      15765770994265380034
+      15765770994265380034,
+      17727951481398095679
     ]
   }
 }
@@ -4701,7 +4705,7 @@
         "Values": {
           "localPosition": {
             "Values": {
-              "x": -0.0,
+              "x": 12.5,
               "y": 0.5,
               "z": -41.0
             }
@@ -4716,7 +4720,7 @@
           },
           "localScale": {
             "Values": {
-              "x": 25.0,
+              "x": 12.5,
               "y": 1.0,
               "z": 20.0
             }
@@ -4985,7 +4989,7 @@
         "210": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -5089,7 +5093,7 @@
         "215": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -5533,7 +5537,7 @@
         "252": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -5601,7 +5605,7 @@
         "255": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -5669,7 +5673,7 @@
         "264": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -5842,7 +5846,7 @@
         "271": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -5910,7 +5914,7 @@
         "274": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -5978,7 +5982,7 @@
         "277": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6046,7 +6050,7 @@
         "280": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6127,7 +6131,12 @@
         332,
         334,
         336,
-        338
+        338,
+        3097485107805712799,
+        15229324397894487697,
+        6411716416711898317,
+        4073331070605989080,
+        14270939371831765060
       ]
     },
     "290": {
@@ -6166,7 +6175,7 @@
         "291": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6212,7 +6221,7 @@
         "294": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6258,7 +6267,7 @@
         "297": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6304,7 +6313,7 @@
         "300": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6350,7 +6359,7 @@
         "303": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6396,7 +6405,7 @@
         "306": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6442,7 +6451,7 @@
         "309": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6488,7 +6497,7 @@
         "312": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6534,7 +6543,7 @@
         "315": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6580,7 +6589,7 @@
         "318": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6626,7 +6635,7 @@
         "321": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6672,7 +6681,7 @@
         "324": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -6718,7 +6727,7 @@
         "327": {
           "Type": "MeshRenderer",
           "Values": {
-            "meshData": 2,
+            "meshData": 17,
             "materials": [
               100521
             ],
@@ -7082,7 +7091,8 @@
         "active": true
       },
       "Children": [
-        203
+        203,
+        15754341147757450151
       ]
     },
     "342": {
@@ -9312,109 +9322,6 @@
         }
       }
     },
-    "13439538498486877511": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 1.0,
-              "y": 1.0,
-              "z": 1.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Ground",
-        "active": true
-      },
-      "Children": [
-        14786019214292679004
-      ]
-    },
-    "14786019214292679004": {
-      "Transform": {
-        "Values": {
-          "localPosition": {
-            "Values": {
-              "x": -0.0,
-              "y": 0.5,
-              "z": -41.0
-            }
-          },
-          "localRotationQuaternion": {
-            "Values": {
-              "x": 0.0,
-              "y": 0.0,
-              "z": 0.0,
-              "w": 1.0
-            }
-          },
-          "localScale": {
-            "Values": {
-              "x": 25.0,
-              "y": 1.0,
-              "z": 20.0
-            }
-          }
-        }
-      },
-      "Values": {
-        "name": "Cube",
-        "active": true
-      },
-      "Children": [],
-      "Components": {
-        "16849984999734705170": {
-          "Type": "MeshRenderer",
-          "Values": {
-            "meshData": 27,
-            "materials": [
-              100524
-            ],
-            "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "6949143228668059434": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 2.0,
-                "y": 1.0,
-                "z": 2.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": -0.5,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
-          },
-          "Enabled": true
-        }
-      }
-    },
     "13360837504658193220": {
       "Transform": {
         "Values": {
@@ -9455,7 +9362,7 @@
             "fov": 55.0,
             "projectionSize": 5.0,
             "nearClippingPlane": 1.0,
-            "farClippingPlane": 100.0,
+            "farClippingPlane": 70.0,
             "useMultisampling": true
           },
           "Enabled": true
@@ -9475,6 +9382,304 @@
                 "z": 0.0
               }
             }
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "3097485107805712799": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -20.0,
+              "y": 3.0,
+              "z": -20.5
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 10.0,
+              "y": 5.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (23)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "18264791395366656915": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 17,
+            "materials": [
+              100521
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "15229324397894487697": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -10.0,
+              "y": 3.0,
+              "z": -20.5
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 10.0,
+              "y": 5.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (24)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "13902916220283131762": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 17,
+            "materials": [
+              100521
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "6411716416711898317": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 3.0,
+              "z": -20.5
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 10.0,
+              "y": 5.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (25)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "6730738916932565200": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 17,
+            "materials": [
+              100521
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "4073331070605989080": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 10.0,
+              "y": 3.0,
+              "z": -20.5
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 10.0,
+              "y": 5.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (26)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "9423488285752400726": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 17,
+            "materials": [
+              100521
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "14270939371831765060": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 20.0,
+              "y": 3.0,
+              "z": -20.5
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 10.0,
+              "y": 5.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (27)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "4094987743172161320": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 17,
+            "materials": [
+              100521
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        }
+      }
+    },
+    "15754341147757450151": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -12.5,
+              "y": 0.5,
+              "z": -41.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 12.5,
+              "y": 1.0,
+              "z": 20.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Cube (28)",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "14979913582431125613": {
+          "Type": "MeshRenderer",
+          "Values": {
+            "meshData": 27,
+            "materials": [
+              100524
+            ],
+            "useAdvancedLighting": true
+          },
+          "Enabled": true
+        },
+        "8892076171272073283": {
+          "Type": "BoxCollider",
+          "Values": {
+            "size": {
+              "Values": {
+                "x": 2.0,
+                "y": 1.0,
+                "z": 2.0
+              }
+            },
+            "offset": {
+              "Values": {
+                "x": 0.0,
+                "y": -0.5,
+                "z": 0.0
+              }
+            },
+            "isTrigger": false,
+            "generateCollisionEvents": false
           },
           "Enabled": true
         }
