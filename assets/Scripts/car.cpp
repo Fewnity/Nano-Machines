@@ -57,6 +57,15 @@ void Car::Update()
         moveDir.z = 1;
     }
 
+    if(InputSystem::GetLeftTrigger() >= 0.1f)
+    {
+        moveDir.z = InputSystem::GetLeftTrigger();
+    }
+    if(InputSystem::GetRightTrigger() >= 0.1f)
+    {
+        moveDir.z = -InputSystem::GetRightTrigger();
+    }
+
     // Apply movements
     rigidBody.lock()->ApplyTorque(carGO.lock()->GetTransform()->GetLeft() * moveDir.z * force);
     
@@ -71,7 +80,9 @@ void Car::Update()
     rigidBody.lock()->SetAngularVelocity(perpendicular);
 
     // Check if the player wants to jump
-    if(InputSystem::GetKeyDown(KeyCode::RTRIGGER1, playerIndex) || InputSystem::GetKeyDown(KeyCode::SPACE))
+    if(InputSystem::GetKeyDown(KeyCode::RTRIGGER1, playerIndex) ||
+     InputSystem::GetKeyDown(KeyCode::SPACE) ||
+      InputSystem::GetKeyDown(KeyCode::TRIANGLE, playerIndex))
     {
         Vector3 currentVel = rigidBody.lock()->GetVelocity();
         currentVel.y += jumpForce;
