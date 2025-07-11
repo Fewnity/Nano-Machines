@@ -21,7 +21,7 @@ void Coin::OnTriggerEnter(CollisionEvent eventData)
 ReflectiveData Coin::GetReflectiveData()
 {
 	BEGIN_REFLECTION();
-	ADD_VARIABLE(rotateSpeed, true);
-	ADD_VARIABLE(particlesPrefab, true);
+	ADD_VARIABLE(rotateSpeed);
+	ADD_VARIABLE(particlesPrefab);
 	END_REFLECTION();
 }

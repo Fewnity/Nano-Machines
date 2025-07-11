@@ -14,9 +14,9 @@
 */
 void Game::Start()
 {
-	REGISTER_COMPONENT(Car, false);
-	REGISTER_COMPONENT(CameraFollow, false);
-	REGISTER_COMPONENT(Coin, false);
-	REGISTER_COMPONENT(CheckPoint, true);
-	REGISTER_COMPONENT(TimedDestroy, false);
+	REGISTER_COMPONENT(Car);
+	REGISTER_COMPONENT(CameraFollow);
+	REGISTER_COMPONENT(Coin);
+	REGISTER_COMPONENT(CheckPoint).DisableUpdateFunction();
+	REGISTER_COMPONENT(TimedDestroy);
 }

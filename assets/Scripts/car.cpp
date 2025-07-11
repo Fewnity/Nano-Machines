@@ -81,12 +81,21 @@ void Car::Update()
 
     // Check if the player wants to jump
     if(InputSystem::GetKeyDown(KeyCode::RTRIGGER1, playerIndex) ||
-     InputSystem::GetKeyDown(KeyCode::SPACE) ||
-      InputSystem::GetKeyDown(KeyCode::TRIANGLE, playerIndex))
-    {
-        Vector3 currentVel = rigidBody.lock()->GetVelocity();
-        currentVel.y += jumpForce;
-        rigidBody.lock()->SetVelocity(currentVel);
+            InputSystem::GetKeyDown(KeyCode::SPACE) ||
+            InputSystem::GetKeyDown(KeyCode::TRIANGLE, playerIndex))
+            {
+        if(auto jumpPointLock = jumpRaycastPoint.lock())
+        {
+            // Check if the player can jump
+            RaycastHit hit;
+            bool hasHit = Raycast::Check(jumpPointLock->GetPosition(), Vector3(0, -1, 0), 0.2f, hit);
+            if (hasHit && hit.hitCollider.lock())
+            {
+                Vector3 currentVel = rigidBody.lock()->GetVelocity();
+                currentVel.y += jumpForce;
+                rigidBody.lock()->SetVelocity(currentVel);
+            }
+        }
     }
 
     particleSystem.lock()->SetSpawnRate(realSpeed);
@@ -101,12 +110,13 @@ void Car::Update()
 ReflectiveData Car::GetReflectiveData()
 {
     BEGIN_REFLECTION();
-    ADD_VARIABLE(playerIndex, true);
-    ADD_VARIABLE(rigidBody, true);
-    ADD_VARIABLE(particleSystem, true);
-    ADD_VARIABLE(force, true);
-    ADD_VARIABLE(steeringForce, true);
-    ADD_VARIABLE(carGO, true);
-    ADD_VARIABLE(jumpForce, true);
+    ADD_VARIABLE(playerIndex);
+    ADD_VARIABLE(rigidBody);
+    ADD_VARIABLE(jumpRaycastPoint);
+    ADD_VARIABLE(particleSystem);
+    ADD_VARIABLE(force);
+    ADD_VARIABLE(steeringForce);
+    ADD_VARIABLE(carGO);
+    ADD_VARIABLE(jumpForce);
     END_REFLECTION();
 }

@@ -4,6 +4,7 @@
 
 class RigidBody;
 class ParticleSystem;
+class Scene;
 
 class Car : public Component
 {
@@ -15,6 +16,7 @@ private:
     void Update() override;
     ReflectiveData GetReflectiveData() override;
 
+    std::weak_ptr<Transform> jumpRaycastPoint;
     std::weak_ptr<GameObject> carGO;
     std::weak_ptr<ParticleSystem> particleSystem;
     std::weak_ptr<RigidBody> rigidBody;

@@ -25,11 +25,11 @@ void CameraFollow::Update()
 ReflectiveData CameraFollow::GetReflectiveData()
 {
 	BEGIN_REFLECTION();
-	ADD_VARIABLE(cameraTarget, true);
-	ADD_VARIABLE(yDistanceMultiplier, true);
-	ADD_VARIABLE(zDistanceMultiplier, true);
-	ADD_VARIABLE(moveSpeed, true);
-	ADD_VARIABLE(rotationSpeed, true);
-	ADD_VARIABLE(cameraAngle, true);
+	ADD_VARIABLE(cameraTarget);
+	ADD_VARIABLE(yDistanceMultiplier);
+	ADD_VARIABLE(zDistanceMultiplier);
+	ADD_VARIABLE(moveSpeed);
+	ADD_VARIABLE(rotationSpeed);
+	ADD_VARIABLE(cameraAngle);
 	END_REFLECTION();
 }

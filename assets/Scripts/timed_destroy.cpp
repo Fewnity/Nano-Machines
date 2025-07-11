@@ -18,6 +18,6 @@ void TimedDestroy::Update()
 ReflectiveData TimedDestroy::GetReflectiveData()
 {
 	BEGIN_REFLECTION();
-	ADD_VARIABLE(cooldown, true);
+	ADD_VARIABLE(cooldown);
 	END_REFLECTION();
 }

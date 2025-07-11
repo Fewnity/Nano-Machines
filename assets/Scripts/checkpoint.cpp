@@ -16,6 +16,6 @@ void CheckPoint::OnTriggerEnter(CollisionEvent eventData)
 ReflectiveData CheckPoint::GetReflectiveData()
 {
 	BEGIN_REFLECTION();
-	ADD_VARIABLE(particlesPrefab, true);
+	ADD_VARIABLE(particlesPrefab);
 	END_REFLECTION();
 }

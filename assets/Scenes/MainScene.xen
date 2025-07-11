@@ -109,6 +109,7 @@
       100522,
       100524,
       8226633440440649918,
+      8323303044919115697,
       12006233561389094657,
       15765770994265380034,
       17727951481398095679
@@ -4678,7 +4679,7 @@
         }
       },
       "Values": {
-        "name": "vehicle-racer-low (1)",
+        "name": "vehicle-racer-low",
         "active": true
       },
       "Children": [],
@@ -4728,7 +4729,7 @@
         }
       },
       "Values": {
-        "name": "Cube",
+        "name": "Cube 0",
         "active": true
       },
       "Children": [],
@@ -4741,28 +4742,6 @@
               100524
             ],
             "useAdvancedLighting": true
-          },
-          "Enabled": true
-        },
-        "205": {
-          "Type": "BoxCollider",
-          "Values": {
-            "size": {
-              "Values": {
-                "x": 2.0,
-                "y": 1.0,
-                "z": 2.0
-              }
-            },
-            "offset": {
-              "Values": {
-                "x": 0.0,
-                "y": -0.5,
-                "z": 0.0
-              }
-            },
-            "isTrigger": false,
-            "generateCollisionEvents": false
           },
           "Enabled": true
         }
@@ -4943,11 +4922,13 @@
           "Values": {
             "playerIndex": 0,
             "rigidBody": 208,
+            "jumpRaycastPoint": 18379482336799045931,
             "particleSystem": 3752299906427333114,
             "force": 6.0,
             "steeringForce": 2.0,
             "carGO": 213,
-            "jumpForce": 6.0
+            "jumpForce": 6.0,
+            "scene": 8323303044919115697
           },
           "Enabled": true
         }
@@ -5054,7 +5035,8 @@
       },
       "Children": [
         201,
-        4979242425518409125
+        4979242425518409125,
+        18379482336799045931
       ]
     },
     "214": {
@@ -7092,7 +7074,8 @@
       },
       "Children": [
         203,
-        15754341147757450151
+        15754341147757450151,
+        629372853503633848
       ]
     },
     "342": {
@@ -7233,7 +7216,7 @@
         }
       },
       "Values": {
-        "name": "Particle System (1)",
+        "name": "Particle System",
         "active": true
       },
       "Children": [],
@@ -9645,7 +9628,7 @@
         }
       },
       "Values": {
-        "name": "Cube (28)",
+        "name": "Cube 1",
         "active": true
       },
       "Children": [],
@@ -9660,21 +9643,89 @@
             "useAdvancedLighting": true
           },
           "Enabled": true
-        },
-        "8892076171272073283": {
+        }
+      }
+    },
+    "18379482336799045931": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": 0.0,
+              "y": -0.27000001072883606,
+              "z": 0.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "JumpRaycastPoint",
+        "active": true
+      },
+      "Children": []
+    },
+    "629372853503633848": {
+      "Transform": {
+        "Values": {
+          "localPosition": {
+            "Values": {
+              "x": -0.0,
+              "y": 0.0,
+              "z": -41.0
+            }
+          },
+          "localRotationQuaternion": {
+            "Values": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            }
+          },
+          "localScale": {
+            "Values": {
+              "x": 50.0,
+              "y": 1.0,
+              "z": 40.0
+            }
+          }
+        }
+      },
+      "Values": {
+        "name": "Collider",
+        "active": true
+      },
+      "Children": [],
+      "Components": {
+        "1020923442123042652": {
           "Type": "BoxCollider",
           "Values": {
             "size": {
               "Values": {
-                "x": 2.0,
+                "x": 1.0,
                 "y": 1.0,
-                "z": 2.0
+                "z": 1.0
               }
             },
             "offset": {
               "Values": {
                 "x": 0.0,
-                "y": -0.5,
+                "y": 0.0,
                 "z": 0.0
               }
             },
