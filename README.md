@@ -6,6 +6,8 @@ Link to the game engine: [https://github.com/Fewnity/Xenity-Engine](https://gith
 
 ![nano_machines](https://github.com/user-attachments/assets/7c52516e-464e-4701-9f78-0a5eb73dfe79)
 
+![ezgif com-optimize](https://github.com/user-attachments/assets/94d53501-608c-4656-98d6-8562a904e726)
+
 ## Goal of this minigame
 
 There is no real goal, you can drive and collect coins with your car.
