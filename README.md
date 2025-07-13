@@ -12,5 +12,12 @@ There is no real goal, you can drive and collect coins with your car.
 
 ## Controls
 
-PC: **Up**, **down**, **left** and **right** arrows to move and **space** to jump.<br>
-Consoles/GamePad: **Left joystick** to steer, **cross** to move forward, **square** to move backward and right shoulder to jump.
+PC:<br>
+**Up**, **Down**, **Left** and **Right** arrows to move,<br>
+**Space** to jump.<br>
+
+Consoles/GamePad:<br>
+**Left joystick** to steer,<br>
+**Cross** or **Right trigger** to move forward,<br>
+**Square** or **Left trigger** to move backward,<br>
+**Right shoulder** or **Triangle** to jump.
