@@ -1,39 +1,40 @@
 {
-"Linux": {
+"Windows": {
 "Values": {
-"icon": 0
+"icon": 7027783476667570272
+}
+},
+"PSP": {
+"Values": {
+"isDebugMode": false,
+"enableProfiler": false,
+"iconImage": 1111324035926399800,
+"backgroundImage": 16017194001774769762,
+"previewImage": 9071606682273676250,
+"useCompilationCache": true
+}
+},
+"PsVita": {
+"Values": {
+"isDebugMode": false,
+"enableProfiler": false,
+"iconImage": 15902227923375833621,
+"backgroundImage": 103616698725322315,
+"startupImage": 14259110203942570613,
+"gameId": "XENY00005",
+"useCompilationCache": true
 }
 },
 "PS3": {
 "Values": {
 "isDebugMode": false,
-"useCompilationCache": false
-}
-},
-"PSP": {
-"Values": {
-"backgroundImage": 16017194001774769762,
 "enableProfiler": false,
-"iconImage": 1111324035926399800,
-"isDebugMode": false,
-"previewImage": 9071606682273676250,
-"useCompilationCache": false
+"useCompilationCache": true
 }
 },
-"PsVita": {
+"Linux": {
 "Values": {
-"backgroundImage": 103616698725322315,
-"enableProfiler": false,
-"gameId": "XENY00005",
-"iconImage": 15902227923375833621,
-"isDebugMode": false,
-"startupImage": 14259110203942570613,
-"useCompilationCache": false
-}
-},
-"Windows": {
-"Values": {
-"icon": 7027783476667570272
+"icon": 0
 }
 }
 }
